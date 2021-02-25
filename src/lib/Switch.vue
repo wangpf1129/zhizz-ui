@@ -3,16 +3,15 @@
 </template>
 
 <script lang="ts">
-  import {} from 'vue';
 
   export default {
     name: 'Switch',
-    props:{
-      value:Boolean
+    props: {
+      value: Boolean
     },
-    setup(props,context) {
+    setup(props, context) {
       const toggle = () => {
-        context.emit('update:value',!props.value)
+        context.emit('update:value', !props.value);
       };
       return {toggle};
     }
@@ -32,24 +31,39 @@
     position: relative;
     margin: 0;
     padding: 0;
+
+    > span {
+      position: absolute;
+      top: 2px;
+      left: 1px;
+      height: 16px;
+      width: 16px;
+      background: #fdfdfd;
+      border-radius: 100%;
+      transition: all .3s;
+    }
+
+    &.checked {
+      background: #aca8ff;
+    }
+
+    &.checked > span {
+      left: 100%;
+      margin-left: -1px;
+      transform: translateX(-100%);
+    }
+
+    &:active {
+      > span {
+        width: $height + 2px;
+      }
+    }
+
+    &.checked:active {
+      > span {
+        width: $height + 2px;
+      }
+    }
   }
 
-  span {
-    position: absolute;
-    top: 2px;
-    left: 1px;
-    height: 16px;
-    width: 16px;
-    background: #fdfdfd;
-    border-radius: 100%;
-    transition: all .3s;
-  }
-
-  button.checked {
-    background: #aca8ff;
-  }
-
-  button.checked > span {
-    left: calc(100% - 16px);
-  }
 </style>

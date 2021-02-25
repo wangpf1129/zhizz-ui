@@ -10,10 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="Switch组件样式基本完成">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="优化switch css 代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <workItem from="1614243874332" duration="1130000" />
       <workItem from="1614245033452" duration="1097000" />
       <workItem from="1614246175142" duration="99000" />
-      <workItem from="1614246859292" duration="14719000" />
+      <workItem from="1614246859292" duration="17785000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1614245112176</created>
@@ -198,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614259805304</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="使用v-model">
+      <created>1614261958223</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614261958223</updated>
+    </task>
+    <task id="LOCAL-00021" summary="优化switch css 代码">
+      <created>1614262266441</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1614262266441</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +246,9 @@
     <MESSAGE value="整体css布局" />
     <MESSAGE value="完成基本框架" />
     <MESSAGE value="Switch组件样式基本完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switch组件样式基本完成" />
+    <MESSAGE value="使用v-model" />
+    <MESSAGE value="优化switch css 代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化switch css 代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614248525085">
