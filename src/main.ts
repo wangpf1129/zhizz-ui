@@ -1,28 +1,9 @@
 import {createApp} from 'vue';
-import {createRouter, createWebHashHistory} from 'vue-router';
 import './index.scss';
 import App from './App.vue';
-import Home from './views/Home.vue';
-import Doc from './views/Doc.vue';
+import {router} from './router';
 
-const history = createWebHashHistory();
-const router = createRouter({
-  history,
-  routes: [
-    {
-      path:'/',
-      redirect:'/home'
-    },
-    {
-      path: '/home',
-      component: Home
-    },
-    {
-      path: '/doc',
-      component: Doc
-    },
-  ]
-});
+
 
 const app = createApp(App);
 app.use(router);
