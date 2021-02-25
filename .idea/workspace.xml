@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="home页面样式">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="初始化aside的HTML">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <workItem from="1614243874332" duration="1130000" />
       <workItem from="1614245033452" duration="1097000" />
       <workItem from="1614246175142" duration="99000" />
-      <workItem from="1614246859292" duration="3927000" />
+      <workItem from="1614246859292" duration="4240000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1614245112176</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614250560992</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="初始化aside的HTML">
+      <created>1614250844530</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614250844530</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +140,8 @@
     <MESSAGE value="安装sass,并更新top_nav 样式" />
     <MESSAGE value="封装TopNav组件" />
     <MESSAGE value="home页面样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="home页面样式" />
+    <MESSAGE value="初始化aside的HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化aside的HTML" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614248525085">
