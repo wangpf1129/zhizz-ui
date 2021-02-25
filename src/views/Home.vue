@@ -4,8 +4,8 @@
     <h1>Zhizz UI</h1>
     <h2>一个好看的 UI 框架</h2>
     <p class="actions">
-      <a>GitHub</a>
-      <a>Start</a>
+      <a target="_blank" href="https://github.com/wwwpppfffzzz">GitHub</a>
+      <router-link to="/doc">Start</router-link>
     </p>
   </section>
 </template>
