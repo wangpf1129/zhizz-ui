@@ -10,9 +10,9 @@
     name: 'App',
     setup() {
       const width = document.documentElement.clientWidth;
-      const asideVisible = ref(width > 900);
+      const asideVisible = ref(width > 500);
       router.afterEach(() => {
-        if (width <= 900) {
+        if (width <= 500) {
           asideVisible.value = false;
         }
       });

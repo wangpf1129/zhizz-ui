@@ -10,42 +10,50 @@
 </template>
 
 <script lang="ts">
-  import {inject, Ref} from 'vue'
+  import {inject, Ref} from 'vue';
+
   export default {
     name: 'TopNav',
-    setup(){
-      const asideVisible = inject<Ref<boolean>>('asideVisible')
-      const toggleAside  = ()=>{
-        asideVisible.value = !asideVisible.value
-      }
+    setup() {
+      const asideVisible = inject<Ref<boolean>>('asideVisible');
+      const toggleAside = () => {
+        asideVisible.value = !asideVisible.value;
+      };
 
-      return {toggleAside}
+      return {toggleAside};
     }
   };
 </script>
 
 <style lang="scss" scoped>
-  .top_nav{
+  .top_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #e9dcfb;
     display: flex;
     padding: 16px;
-    position: relative;
     justify-content: center;
     align-items: center;
     z-index: 10;
-    > .logo{
+
+    > .logo {
       max-width: 6em;
       margin-right: auto;
     }
-    .menu{
+
+    .menu {
       display: flex;
       white-space: nowrap;
       flex-wrap: nowrap;
-      > li{
+
+      > li {
         margin: 0 1em;
       }
     }
-    > .toggleAside{
+
+    > .toggleAside {
       display: none;
       width: 24px;
       height: 24px;
@@ -56,15 +64,16 @@
       transform: translateY(-50%);
 
     }
-    @media (max-width: 900px) {
-      > .menu{
+
+    @media (max-width: 500px) {
+      > .menu {
         display: none;
       }
-      > .logo{
+      > .logo {
         margin-left: auto;
         margin-right: auto;
       }
-      > .toggleAside{
+      > .toggleAside {
         display: inline-block;
       }
     }
