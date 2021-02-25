@@ -29,6 +29,8 @@
     display: flex;
     padding: 16px;
     position: relative;
+    justify-content: center;
+    align-items: center;
     z-index: 10;
     > .logo{
       max-width: 6em;
@@ -40,6 +42,15 @@
       flex-wrap: nowrap;
       > li{
         margin: 0 1em;
+      }
+    }
+    @media (max-width: 900px) {
+      > .menu{
+        display: none;
+      }
+      .logo{
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
