@@ -31,9 +31,10 @@
     components: {TopNav},
     setup() {
       const asideVisible = inject<Ref<boolean>>('asideVisible');
+
       return {
         asideVisible
-      }
+      };
     }
   };
 </script>

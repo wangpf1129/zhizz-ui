@@ -3,12 +3,14 @@
 </template>
 
 <script lang="ts">
-  import {ref, provide} from 'vue'
-export default {
-  name: "App",
-  setup(){
-    const asideVisible = ref(true)
-    provide('asideVisible',asideVisible)
-  }
-};
+  import {ref, provide} from 'vue';
+
+  export default {
+    name: 'App',
+    setup() {
+      const width = document.documentElement.clientWidth;
+      const asideVisible = ref(width > 900);
+      provide('asideVisible', asideVisible);
+    }
+  };
 </script>
