@@ -1,12 +1,12 @@
 <template>
-  <wang/>
+  <router-link to="/">Wang</router-link>  |
+  <router-link to="/xxx">Wang2</router-link>
+  <hr/>
+  <router-view/>
 </template>
 
 <script lang="ts">
-  import Wang from './components/Wang.vue';
-
-  export default {
-    name: 'App',
-    components: {Wang},
-  };
+export default {
+  name: "App",
+};
 </script>
