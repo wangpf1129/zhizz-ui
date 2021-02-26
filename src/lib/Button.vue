@@ -1,5 +1,5 @@
 <template>
-  <button class="z_button" :class="classes">
+  <button class="z-button" :class="classes">
     <slot/>
   </button>
 </template>
@@ -24,8 +24,8 @@
 
       const classes = computed(() => {
         return {
-          [`z-theme-${theme}`]: theme,
-          [`z-size-${size}`]: size,
+          [`z-button-theme-${theme}`]: theme,
+          [`z-button-size-${size}`]: size,
         };
       });
 
@@ -37,13 +37,13 @@
 <style lang="scss">
   $height: 32px;
   $border-color: #d9d9d9;
-  $color: #333;
+  $color: #606266;
   $blue: #40a9ff;
   $radius: 4px;
 
-  .z_button {
-    height: $height;
+  .z-button {
     border-radius: $radius;
+    line-height: 1;
     color: $color;
     padding: 0 12px;
     cursor: pointer;
@@ -51,18 +51,15 @@
     justify-content: center;
     align-items: center;
     white-space: nowrap;
-    border: 1px solid $border-color;
-    box-shadow: 0 1px 0 fade-out(black, 0.95);
+    box-sizing: border-box;
 
     & + & {
       margin-left: 8px;
+      margin-bottom: 8px;
+
     }
 
-    &:hover,
-    &:focus {
-      color: $blue;
-      border-color: $blue;
-    }
+
 
     &:focus {
       outline: none;
@@ -70,6 +67,108 @@
 
     &::-moz-focus-inner {
       border: 0;
+    }
+
+    &.z-button-theme-default {
+      background: #fff;
+      border: 1px solid #dcdfe6;
+
+      &:hover, &:focus {
+        color: #222831;
+        border-color: #222831;
+        background-color: #eeeeee;
+      }
+    }
+
+    &.z-button-theme-primary {
+      background: #00adb5;
+      border: 1px solid #00adb5;
+      color: #eeeeee;
+
+      &:hover, &:focus {
+        color: #eeeeee;
+        border-color: #222831;
+        background-color: #40babf;
+      }
+    }
+
+    &.z-button-theme-success {
+      background: #4ecca3;
+      border: 1px solid #4ecca3;
+      color: #eeeeee;
+
+      &:hover, &:focus {
+        color: #eeeeee;
+        border-color: #222831;
+        background-color: #6be3bc;
+      }
+    }
+
+    &.z-button-theme-danger {
+      background: #d72323;
+      border: 1px solid #d72323;
+      color: #eeeeee;
+
+      &:hover, &:focus {
+        color: #eeeeee;
+        border-color: #222831;
+        background-color: #dd5656;
+      }
+    }
+
+    &.z-button-theme-info {
+      background: #52616b;
+      border: 1px solid #52616b;
+      color: #eeeeee;
+
+      &:hover, &:focus {
+        color: #eeeeee;
+        border-color: #222831;
+        background-color: #6c777d;
+      }
+    }
+
+    &.z-button-theme-warning {
+      background: #fce38a;
+      border: 1px solid #fce38a;
+      color: #4a4444;
+
+      &:hover, &:focus {
+        color: #8e8282;
+        border-color: #222831;
+        background-color: #f7e4a4;
+      }
+    }
+
+    &.z-button-theme-text {
+      background: #fff;
+      border: 0;
+      color: #4a4444;
+
+      &:hover, &:focus {
+        > span {
+          color: #8e8282;
+          border-color: #222831;
+          background-color: #f7e4a4;
+        }
+      }
+    }
+
+
+    &.z-button-size-small {
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 4px;
+    }
+
+    &.z-button-size-normal {
+      padding: 12px 24px;
+    }
+
+    &.z-button-size-large {
+      padding: 14px 28px;
+      font-size: 18px;
+      border-radius: 4px;
     }
   }
 </style>
