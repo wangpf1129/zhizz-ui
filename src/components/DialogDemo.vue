@@ -1,6 +1,6 @@
 <template>
   <h2>dialog 基本用法</h2>
-  <Button theme="primary" @click="toggle">打开对话框</Button>
+  <Button theme="primary" size="small" @click="toggle">打开对话框</Button>
   <Dialog
     v-model:visible="visible"
     :closeOnClickOverlay="true"
@@ -17,7 +17,7 @@
   </Dialog>
 
   <h2>函数式调用 dialog</h2>
-  <Button theme="primary" @click="showDialog">一句话打开Dialog</Button>
+  <Button theme="primary" size="small" @click="showDialog">一键打开Dialog</Button>
 </template>
 
 <script lang="ts">

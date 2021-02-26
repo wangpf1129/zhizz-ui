@@ -10,13 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="使用 Teleport 标签来 避免Dialog被遮挡">
-      <change afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="调整html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1oy1AU8cK436rBApfCfIpXjIRG8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,11 +47,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pf-ui" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
-    <property name="ts.external.directory.path" value="F:\webstorm\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.EditorConfig" />
+    <property name="ts.external.directory.path" value="F:\webstorm\WebStorm 2020.3\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -68,7 +69,9 @@
       <workItem from="1614246175142" duration="99000" />
       <workItem from="1614246859292" duration="18011000" />
       <workItem from="1614310813184" duration="19055000" />
-      <workItem from="1614343711662" duration="5403000" />
+      <workItem from="1614343711662" duration="5801000" />
+      <workItem from="1614398526902" duration="124000" />
+      <workItem from="1614398670243" duration="3352000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1614245112176</created>
@@ -336,11 +339,25 @@
       <option name="project" value="LOCAL" />
       <updated>1614346065998</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="利用 动态挂载组件  函数式调用 Dialog组件">
+      <created>1614352597794</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1614352597794</updated>
+    </task>
+    <task id="LOCAL-00040" summary="调整html">
+      <created>1614352754455</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1614352754455</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -355,8 +372,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="使 TopNav组件实现响应式" />
-    <MESSAGE value="完成aside切换逻辑" />
     <MESSAGE value="忽略 .idea" />
     <MESSAGE value="将 router 抽离出来" />
     <MESSAGE value="手机端路由切换关闭aside" />
@@ -380,36 +395,8 @@
     <MESSAGE value="让 Dialog组件支持 title 和 content" />
     <MESSAGE value="使用具名插槽， 以及 添加 width 和 top 属性" />
     <MESSAGE value="使用 Teleport 标签来 避免Dialog被遮挡" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用 Teleport 标签来 避免Dialog被遮挡" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="357" y="156" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1614343951394">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="357" y="156" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1614343951394" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614248525085">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1614248525085" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1614334719148">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614334719148" />
-    <state x="178" y="66" key="SettingsEditor" timestamp="1614343980750">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="178" y="66" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614343980750" />
-    <state x="469" y="150" width="598" height="524" key="find.popup" timestamp="1614256906859">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="469" y="150" width="598" height="524" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1614256906859" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1614328376070">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1614328376070" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1614332497686">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614332497686" />
+    <MESSAGE value="利用 动态挂载组件  函数式调用 Dialog组件" />
+    <MESSAGE value="调整html" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整html" />
   </component>
 </project>
