@@ -6,8 +6,13 @@
     :ok="f1"
     :cancel="f2"
   >
-    <div>hi</div>
-    <div>hello</div>
+    <template v-slot:title>
+      <strong>标题</strong>
+    </template>
+    <template v-slot:content>
+      <p>第一行</p>
+      <p>第二行</p>
+    </template>
   </Dialog>
 </template>
 

@@ -1,18 +1,18 @@
 <template>
   <template v-if="visible">
     <div class="z-dialog-overlay" @click="onClickOverlay"></div>
-    <div class="z-dialog-wrapper">
+    <div class="z-dialog-wrapper" :style="styles">
       <div class="z-dialog">
         <header>
-          {{title}}
+          <slot name="title"/>
           <span class="z-dialog-close" @click="close"></span>
         </header>
         <main>
-          <slot/>
+          <slot name="content"/>
         </main>
         <footer>
-          <Button @click="cancel">取消</Button>
-          <Button theme="primary" @click="ok">确认</Button>
+          <Button @click="cancel" size="small">取消</Button>
+          <Button theme="primary" size="small" @click="ok">确认</Button>
         </footer>
       </div>
     </div>
@@ -27,9 +27,13 @@
     name: 'Dialog',
     components: {Button},
     props: {
-      title:{
-        type:String,
-        default:'提示'
+      width: {
+        type: String,
+        default: '50%'
+      },
+      top: {
+        type: String,
+        default: '100px'
       },
       visible: {
         type: Boolean,
@@ -47,6 +51,10 @@
       },
     },
     setup(props, context) {
+      const styles = {
+        minWidth: props.width,
+        top: props.top
+      };
       const close = () => {
         context.emit('update:visible', !props.visible);
       };
@@ -67,6 +75,7 @@
       };
 
       return {
+        styles,
         close,
         onClickOverlay,
         ok,
@@ -83,8 +92,6 @@
     background: white;
     border-radius: $radius;
     box-shadow: 0 0 3px fade_out(black, 0.5);
-    min-width: 15em;
-    max-width: 90%;
 
     &-overlay {
       position: fixed;
@@ -97,10 +104,11 @@
     }
 
     &-wrapper {
+      min-width: 50%;
       position: fixed;
       left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
+      top: 0;
+      transform: translateX(-50%);
       z-index: 11;
     }
 
