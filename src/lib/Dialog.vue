@@ -4,12 +4,11 @@
     <div class="z-dialog-wrapper">
       <div class="z-dialog">
         <header>
-          标题
+          {{title}}
           <span class="z-dialog-close" @click="close"></span>
         </header>
         <main>
-          <p>第一行11111111111111111111111111111111111111</p>
-          <p>第二行</p>
+          <slot/>
         </main>
         <footer>
           <Button @click="cancel">取消</Button>
@@ -28,6 +27,10 @@
     name: 'Dialog',
     components: {Button},
     props: {
+      title:{
+        type:String,
+        default:'提示'
+      },
       visible: {
         type: Boolean,
         default: false,

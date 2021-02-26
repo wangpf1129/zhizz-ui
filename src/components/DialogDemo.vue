@@ -5,7 +5,10 @@
     :closeOnClickOverlay="true"
     :ok="f1"
     :cancel="f2"
-  />
+  >
+    <div>hi</div>
+    <div>hello</div>
+  </Dialog>
 </template>
 
 <script lang="ts">
