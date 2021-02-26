@@ -1,23 +1,23 @@
 <template>
- <template v-if="visible">
-   <div class="z-dialog-overlay"></div>
-   <div class="z-dialog-wrapper">
-     <div class="z-dialog">
-       <header>
-         标题
-         <span class="z-dialog-close"></span>
-       </header>
-       <main>
-         <p>第一行11111111111111111111111111111111111111</p>
-         <p>第二行</p>
-       </main>
-       <footer>
-         <Button>取消</Button>
-         <Button theme="primary">确认</Button>
-       </footer>
-     </div>
-   </div>
- </template>
+  <template v-if="visible">
+    <div class="z-dialog-overlay" @click="onClickOverlay"></div>
+    <div class="z-dialog-wrapper">
+      <div class="z-dialog">
+        <header>
+          标题
+          <span class="z-dialog-close" @click="close"></span>
+        </header>
+        <main>
+          <p>第一行11111111111111111111111111111111111111</p>
+          <p>第二行</p>
+        </main>
+        <footer>
+          <Button @click="cancel">取消</Button>
+          <Button theme="primary" @click="ok">确认</Button>
+        </footer>
+      </div>
+    </div>
+  </template>
 </template>
 
 <script lang="ts">
@@ -27,12 +27,49 @@
   export default {
     name: 'Dialog',
     components: {Button},
-    props:{
-      visible:{
-        type:Boolean,
-        default:false
-      }
-    }
+    props: {
+      visible: {
+        type: Boolean,
+        default: false,
+      },
+      closeOnClickOverlay: {
+        type: Boolean,
+        default: false,
+      },
+      ok: {
+        type: Function,
+      },
+      cancel: {
+        type: Function,
+      },
+    },
+    setup(props, context) {
+      const close = () => {
+        context.emit('update:visible', !props.visible);
+      };
+      const onClickOverlay = () => {
+        if (props.closeOnClickOverlay) {
+          close();
+        }
+      };
+      const ok = () => {
+        if (props.ok && props.ok() !== false) {
+          close();
+        }
+      };
+      const cancel = () => {
+        if (props.cancel && props.cancel() !== false) {
+          close();
+        }
+      };
+
+      return {
+        close,
+        onClickOverlay,
+        ok,
+        cancel
+      };
+    },
   };
 </script>
 
@@ -92,7 +129,7 @@
 
       &::before,
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         height: 1px;
         background: black;
