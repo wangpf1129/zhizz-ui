@@ -1,21 +1,23 @@
 <template>
   <template v-if="visible">
-    <div class="z-dialog-overlay" @click="onClickOverlay"></div>
-    <div class="z-dialog-wrapper" :style="styles">
-      <div class="z-dialog">
-        <header>
-          <slot name="title"/>
-          <span class="z-dialog-close" @click="close"></span>
-        </header>
-        <main>
-          <slot name="content"/>
-        </main>
-        <footer>
-          <Button @click="cancel" size="small">取消</Button>
-          <Button theme="primary" size="small" @click="ok">确认</Button>
-        </footer>
+    <Teleport to="body">
+      <div class="z-dialog-overlay" @click="onClickOverlay"></div>
+      <div class="z-dialog-wrapper" :style="styles">
+        <div class="z-dialog">
+          <header>
+            <slot name="title"/>
+            <span class="z-dialog-close" @click="close"></span>
+          </header>
+          <main>
+            <slot name="content"/>
+          </main>
+          <footer>
+            <Button @click="cancel" size="small">取消</Button>
+            <Button theme="primary" size="small" @click="ok">确认</Button>
+          </footer>
+        </div>
       </div>
-    </div>
+    </Teleport>
   </template>
 </template>
 
