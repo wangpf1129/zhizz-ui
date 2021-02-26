@@ -17,6 +17,10 @@
   <h2>Button disable</h2>
   <Button disabled>禁用按钮</Button>
 
+  <h2>Button loading</h2>
+  <Button loading >加载中</Button>
+
+
 </template>
 
 

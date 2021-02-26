@@ -1,5 +1,6 @@
 <template>
   <button class="z-button" :class="classes" :disabled="disabled">
+    <span class="z-button-spin" v-if="loading"></span>
     <span><slot/></span>
   </button>
 </template>
@@ -21,16 +22,23 @@
       disabled: {
         type: Boolean,
         default: false
+      },
+      loading: {
+        type: Boolean,
+        default: false
       }
     },
-    setup(props, context) {
-      const {theme, size} = props;
+    setup(props) {
+      const {theme, size, loading} = props;
 
       const classes = computed(() => {
-        return {
-          [`z-button-theme-${theme}`]: theme,
-          [`z-button-size-${size}`]: size,
-        };
+        const loadingClass = loading ? ' z-button-loading' : '';
+
+        return `z-button-theme-${theme} z-button-size-${size}${loadingClass}`;
+        // return {
+        //   [`z-button-theme-${theme}`]: theme,
+        //   [`z-button-size-${size}`]: size,
+        // };
       });
 
       return {classes};
@@ -39,9 +47,8 @@
 </script>
 
 <style lang="scss">
-  $height: 32px;
   $border-color: #d9d9d9;
-  $color: #606266;
+  $color: #40a9ff;
   $blue: #40a9ff;
   $radius: 4px;
 
@@ -60,7 +67,6 @@
     & + & {
       margin-left: 8px;
       margin-bottom: 8px;
-
     }
 
     &:focus {
@@ -71,39 +77,55 @@
       border: 0;
     }
 
+
     // 主题
     &.z-button-theme-default {
       background: #fff;
-      border: 1px solid #dcdfe6;
+      border: 1px solid #007bff;
+      color: #4a4444;
+
 
       &:hover, &:focus {
-        color: #222831;
+        color: #fff;
         border-color: #222831;
-        background-color: #eeeeee;
+        background-color: #40a9ff;
       }
     }
 
     &.z-button-theme-primary {
-      background: #00adb5;
-      border: 1px solid #00adb5;
-      color: #eeeeee;
+      background: #40babf;
+      border: 1px solid #40babf;
+      color: #4a4444;
 
       &:hover, &:focus {
-        color: #eeeeee;
-        border-color: #222831;
-        background-color: #40babf;
+        color: #40babf;
+        border-color: #40babf;
+        background: #fff;
+      }
+    }
+
+    &.z-button-theme-warning {
+      background: #f7e4a4;
+      border: 1px solid #fce38a;
+      color: #4a4444;
+
+      &:hover, &:focus {
+        color: #ffc107;
+        border-color: #ffc107;
+        background: #fff;
+
       }
     }
 
     &.z-button-theme-success {
-      background: #4ecca3;
-      border: 1px solid #4ecca3;
-      color: #eeeeee;
+      background: #28a745;
+      border: 1px solid #28a745;
+      color: #fff;
 
       &:hover, &:focus {
-        color: #eeeeee;
-        border-color: #222831;
-        background-color: #6be3bc;
+        color: #28a745;
+        border-color: #28a745;
+        background-color: #fff;
       }
     }
 
@@ -113,9 +135,9 @@
       color: #eeeeee;
 
       &:hover, &:focus {
-        color: #eeeeee;
-        border-color: #222831;
-        background-color: #dd5656;
+        color: #d72323;
+        border-color: #d72323;
+        background-color: #fff;
       }
     }
 
@@ -125,23 +147,12 @@
       color: #eeeeee;
 
       &:hover, &:focus {
-        color: #eeeeee;
+        color: #222831;
         border-color: #222831;
-        background-color: #6c777d;
+        background-color: #fff;
       }
     }
 
-    &.z-button-theme-warning {
-      background: #fce38a;
-      border: 1px solid #fce38a;
-      color: #4a4444;
-
-      &:hover, &:focus {
-        color: #8e8282;
-        border-color: #222831;
-        background-color: #f7e4a4;
-      }
-    }
 
     &.z-button-theme-link {
       border: none;
@@ -150,7 +161,7 @@
 
       &:hover, &:focus {
         > span {
-          color: #8e8282;
+          color: #40a9ff;
           border-bottom: 1px solid #222831;
         }
       }
@@ -179,17 +190,45 @@
         cursor: not-allowed;
         color: #4a4444;
         background: #eeeeee;
+
         &:hover {
           border-color: #4a4444;
         }
       }
     }
 
-    &.gulu-theme-link, &.gulu-theme-text {
+    &.z-button-theme-link, &.z-button-theme-text {
       &[disabled] {
         cursor: not-allowed;
         color: #4a4444;
       }
+    }
+
+    &.z-button-loading {
+      pointer-events: none;
+
+      .z-button-spin {
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        margin-right: 4px;
+        border-radius: 8px;
+        border-color: $blue $blue $blue transparent;
+        border-style: solid;
+        border-width: 2px;
+        animation: z-spin 1s infinite linear;
+      }
+    }
+
+
+  }
+
+  @keyframes z-spin {
+    0% {
+      transform: rotate(0deg)
+    }
+    100% {
+      transform: rotate(360deg)
     }
   }
 </style>
