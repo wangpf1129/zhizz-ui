@@ -1,6 +1,12 @@
 <template>
   <h2>Button 示例</h2>
-  <Button>你好</Button>
+  <Button
+    @click="onClick"
+    @mouseover="onClick"
+    size="small"
+    level="normal"
+  >你好
+  </Button>
 </template>
 
 <script lang="ts">
@@ -9,6 +15,14 @@
   export default {
     name: 'ButtonDemo',
     components: {Button},
+    setup() {
+      const onClick = () => {
+        console.log('hi');
+      };
+
+
+      return {onClick};
+    }
   };
 </script>
 
