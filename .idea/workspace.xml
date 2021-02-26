@@ -10,12 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="研究 props 和 attrs 的区别，（之后会删掉）">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="Button 组件样式雏形">
+      <change afterPath="$PROJECT_DIR$/src/_z.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1614245033452" duration="1097000" />
       <workItem from="1614246175142" duration="99000" />
       <workItem from="1614246859292" duration="18011000" />
-      <workItem from="1614310813184" duration="4717000" />
+      <workItem from="1614310813184" duration="5393000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1614245112176</created>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614313327148</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Button 组件样式雏形">
+      <created>1614323149719</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1614323149719</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +283,8 @@
     <MESSAGE value="优化switch css 代码" />
     <MESSAGE value="创建Button组件" />
     <MESSAGE value="研究 props 和 attrs 的区别，（之后会删掉）" />
-    <option name="LAST_COMMIT_MESSAGE" value="研究 props 和 attrs 的区别，（之后会删掉）" />
+    <MESSAGE value="Button 组件样式雏形" />
+    <option name="LAST_COMMIT_MESSAGE" value="Button 组件样式雏形" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614248525085">
