@@ -1,18 +1,24 @@
 <template>
-  <h2>Button 主题示例</h2>
-  <Button>default</Button>
-  <Button theme="primary">primary</Button>
-  <Button theme="warning">warning</Button>
-  <Button theme="success">success</Button>
-  <Button theme="danger">danger</Button>
-  <Button theme="info">info</Button>
+  <h2>Button 主题</h2>
+  <Button>默认按钮</Button>
+  <Button theme="primary">主要按钮</Button>
+  <Button theme="warning">警告按钮</Button>
+  <Button theme="success">成功按钮</Button>
+  <Button theme="danger">危险按钮</Button>
+  <Button theme="info">信息按钮</Button>
+  <Button theme="link">链接按钮</Button>
 
-  <h2>Button size示例</h2>
+  <h2>Button size</h2>
 
-  <Button size="small">Small</Button>
-  <Button size="normal">normal</Button>
-  <Button size="large">Large</Button>
+  <Button size="small">超小按钮</Button>
+  <Button size="normal">普通按钮</Button>
+  <Button size="large">大型按钮</Button>
+
+  <h2>Button disable</h2>
+  <Button disabled>禁用按钮</Button>
+
 </template>
+
 
 <script lang="ts">
   import Button from '../lib/Button.vue';

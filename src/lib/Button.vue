@@ -1,6 +1,6 @@
 <template>
-  <button class="z-button" :class="classes">
-    <slot/>
+  <button class="z-button" :class="classes" :disabled="disabled">
+    <span><slot/></span>
   </button>
 </template>
 
@@ -17,6 +17,10 @@
       size: {
         type: String,
         default: 'normal'
+      },
+      disabled: {
+        type: Boolean,
+        default: false
       }
     },
     setup(props, context) {
@@ -59,8 +63,6 @@
 
     }
 
-
-
     &:focus {
       outline: none;
     }
@@ -69,6 +71,7 @@
       border: 0;
     }
 
+    // 主题
     &.z-button-theme-default {
       background: #fff;
       border: 1px solid #dcdfe6;
@@ -140,21 +143,20 @@
       }
     }
 
-    &.z-button-theme-text {
-      background: #fff;
-      border: 0;
+    &.z-button-theme-link {
+      border: none;
+      background: inherit;
       color: #4a4444;
 
       &:hover, &:focus {
         > span {
           color: #8e8282;
-          border-color: #222831;
-          background-color: #f7e4a4;
+          border-bottom: 1px solid #222831;
         }
       }
     }
 
-
+    // 尺寸
     &.z-button-size-small {
       padding: 10px 20px;
       font-size: 14px;
@@ -169,6 +171,25 @@
       padding: 14px 28px;
       font-size: 18px;
       border-radius: 4px;
+    }
+
+    // 禁用
+    &.z-button {
+      &[disabled] {
+        cursor: not-allowed;
+        color: #4a4444;
+        background: #eeeeee;
+        &:hover {
+          border-color: #4a4444;
+        }
+      }
+    }
+
+    &.gulu-theme-link, &.gulu-theme-text {
+      &[disabled] {
+        cursor: not-allowed;
+        color: #4a4444;
+      }
     }
   }
 </style>
