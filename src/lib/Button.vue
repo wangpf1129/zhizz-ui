@@ -1,11 +1,11 @@
 <template>
-  <button class="z_button" :class="{[`z-theme-${theme}`]:theme}">
+  <button class="z_button" :class="classes">
     <slot/>
   </button>
 </template>
 
 <script lang="ts">
-  import {} from 'vue';
+  import {computed} from 'vue';
 
   export default {
     name: 'Button',
@@ -13,19 +13,35 @@
       theme: {
         type: String,
         default: 'default'
+      },
+      size: {
+        type: String,
+        default: 'normal'
       }
+    },
+    setup(props, context) {
+      const {theme, size} = props;
+
+      const classes = computed(() => {
+        return {
+          [`z-theme-${theme}`]: theme,
+          [`z-size-${size}`]: size,
+        };
+      });
+
+      return {classes};
     }
   };
 </script>
 
 <style lang="scss">
-  $height : 32px;
-  $border-color:#d9d9d9;
-  $color:#333;
-  $blue:#40a9ff;
-  $radius:4px;
+  $height: 32px;
+  $border-color: #d9d9d9;
+  $color: #333;
+  $blue: #40a9ff;
+  $radius: 4px;
 
-  .z_button{
+  .z_button {
     height: $height;
     border-radius: $radius;
     color: $color;
@@ -36,21 +52,23 @@
     align-items: center;
     white-space: nowrap;
     border: 1px solid $border-color;
-    box-shadow: 0 1px 0 fade-out(black,0.95);
+    box-shadow: 0 1px 0 fade-out(black, 0.95);
 
     & + & {
       margin-left: 8px;
     }
 
     &:hover,
-    &:focus{
+    &:focus {
       color: $blue;
       border-color: $blue;
     }
-    &:focus{
+
+    &:focus {
       outline: none;
     }
-    &::-moz-focus-inner{
+
+    &::-moz-focus-inner {
       border: 0;
     }
   }
