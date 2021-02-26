@@ -18,7 +18,7 @@
   };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   $height: 20px;
   $width: 40px;
   button {

@@ -1,12 +1,10 @@
 <template>
   <h2>Button 示例</h2>
-  <Button
-    @click="onClick"
-    @mouseover="onClick"
-    size="small"
-    level="normal"
-  >你好
-  </Button>
+  <Button>默认按钮</Button>
+  <Button theme="primary">主要按钮</Button>
+  <Button theme="primary">成功按钮</Button>
+  <Button theme="warning">警告按钮</Button>
+
 </template>
 
 <script lang="ts">

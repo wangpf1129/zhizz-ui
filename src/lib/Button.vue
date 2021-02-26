@@ -1,9 +1,7 @@
 <template>
-  <div :size="size">
-    <button v-bind="rest">
-      <slot/>
-    </button>
-  </div>
+  <button class="z_button" :class="{[`z-theme-${theme}`]:theme}">
+    <slot/>
+  </button>
 </template>
 
 <script lang="ts">
@@ -11,22 +9,49 @@
 
   export default {
     name: 'Button',
-    inheritAttrs: false,   // 禁止 自动继承属性   我需要手动来给规定的标签添加
     props: {
-      size: String,
-    },
-    setup(props, context) {
-      console.log({...props});
-      console.log({...context.attrs});
-      const {size, ...rest} = context.attrs;
-
-      return {size, rest};
+      theme: {
+        type: String,
+        default: 'default'
+      }
     }
   };
 </script>
 
-<style lang="scss" scoped>
-  div {
-    border: 1px solid red;
+<style lang="scss">
+  $height : 32px;
+  $border-color:#d9d9d9;
+  $color:#333;
+  $blue:#40a9ff;
+  $radius:4px;
+
+  .z_button{
+    height: $height;
+    border-radius: $radius;
+    color: $color;
+    padding: 0 12px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    border: 1px solid $border-color;
+    box-shadow: 0 1px 0 fade-out(black,0.95);
+
+    & + & {
+      margin-left: 8px;
+    }
+
+    &:hover,
+    &:focus{
+      color: $blue;
+      border-color: $blue;
+    }
+    &:focus{
+      outline: none;
+    }
+    &::-moz-focus-inner{
+      border: 0;
+    }
   }
 </style>
