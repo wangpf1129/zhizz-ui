@@ -71,9 +71,8 @@
         }
       };
       const cancel = () => {
-        if (props.cancel && props.cancel() !== false) {
-          close();
-        }
+        props.cancel && props.cancel();
+        close();
       };
 
       return {

@@ -46,7 +46,7 @@
     }
 
     &.z-checked {
-      background: #aca8ff;
+      background: #40babf;
     }
 
     &.z-checked > span {

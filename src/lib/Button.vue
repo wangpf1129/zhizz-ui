@@ -63,6 +63,7 @@ $radius: 4px;
   align-items: center;
   white-space: nowrap;
   box-sizing: border-box;
+  font-size: 14px;
 
   & + & {
     margin-left: 8px;
@@ -80,13 +81,13 @@ $radius: 4px;
   // 主题
   &.z-button-theme-default {
     background: #fff;
-    border: 1px solid #007bff;
+    border: 1px solid #222831;
     color: #4a4444;
 
     &:hover,
     &:focus {
       color: #fff;
-      border-color: #222831;
+      border-color: #007bff;
       background-color: #40a9ff;
     }
   }
