@@ -10,9 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="实现切换内容功能">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="Tabs组件功能完毕">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,7 @@
       <workItem from="1614343711662" duration="5801000" />
       <workItem from="1614398526902" duration="124000" />
       <workItem from="1614398670243" duration="13759000" />
-      <workItem from="1614417200927" duration="2739000" />
+      <workItem from="1614417200927" duration="10578000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1614245112176</created>
@@ -394,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614411875974</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Tabs组件功能完毕">
+      <created>1614420001883</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1614420001883</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +423,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成基本框架" />
     <MESSAGE value="Switch组件样式基本完成" />
     <MESSAGE value="使用v-model" />
     <MESSAGE value="优化switch css 代码" />
@@ -438,6 +447,7 @@
     <MESSAGE value="渲染内容，以及HTML结构的搭建" />
     <MESSAGE value="Tabs组件样式" />
     <MESSAGE value="实现切换内容功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现切换内容功能" />
+    <MESSAGE value="Tabs组件功能完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabs组件功能完毕" />
   </component>
 </project>
