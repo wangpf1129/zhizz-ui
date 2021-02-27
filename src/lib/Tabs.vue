@@ -31,6 +31,33 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+$selectedColor: #485fc7;
+$color: #4a4a4a;
+$border-color: #363636;
+.z-tabs {
+  &-nav {
+    display: flex;
+    color: $color;
+    border-bottom: 1px solid $border-color;
 
+    &-item {
+      cursor: pointer;
+      padding: 8px 0;
+      margin: 0 16px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &.selected {
+        color: $selectedColor;
+      }
+    }
+  }
+
+  &-content{
+    padding: 8px 0;
+  }
+}
 </style>
