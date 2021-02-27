@@ -1,10 +1,10 @@
 <template>
   <section class="top_nav">
-    <div class="logo">
+    <router-link to="/" class="logo">
       <svg class="icon">
         <use xlink:href="#icon-lanmei"></use>
       </svg>
-    </div>
+    </router-link>
     <ul class="menu">
       <li>菜单1</li>
       <li>菜单2</li>
