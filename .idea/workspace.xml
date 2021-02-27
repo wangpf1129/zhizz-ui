@@ -10,10 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="Tabs组件样式">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="实现切换内容功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/TabItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/TabItem.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +38,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1oy1AU8cK436rBApfCfIpXjIRG8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -81,7 +76,8 @@
       <workItem from="1614310813184" duration="19055000" />
       <workItem from="1614343711662" duration="5801000" />
       <workItem from="1614398526902" duration="124000" />
-      <workItem from="1614398670243" duration="8348000" />
+      <workItem from="1614398670243" duration="13759000" />
+      <workItem from="1614417200927" duration="2739000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1614245112176</created>
@@ -391,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614408415250</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="实现切换内容功能">
+      <created>1614411875974</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1614411875974</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +413,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="整体css布局" />
     <MESSAGE value="完成基本框架" />
     <MESSAGE value="Switch组件样式基本完成" />
     <MESSAGE value="使用v-model" />
@@ -435,6 +437,7 @@
     <MESSAGE value="创建Tabs 和 TabItem 组件" />
     <MESSAGE value="渲染内容，以及HTML结构的搭建" />
     <MESSAGE value="Tabs组件样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tabs组件样式" />
+    <MESSAGE value="实现切换内容功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现切换内容功能" />
   </component>
 </project>
