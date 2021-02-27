@@ -10,10 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="创建更多的路由组件">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="aside 样式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Start.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Start.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +82,7 @@
       <workItem from="1614343711662" duration="5801000" />
       <workItem from="1614398526902" duration="124000" />
       <workItem from="1614398670243" duration="13759000" />
-      <workItem from="1614417200927" duration="15365000" />
-    </task>
-    <task id="LOCAL-00002" summary="初始化路由，并解决 vue3 cannot found module的问题">
-      <created>1614248070760</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1614248070760</updated>
+      <workItem from="1614417200927" duration="16345000" />
     </task>
     <task id="LOCAL-00003" summary="搭建HTML结构，删除测试代码">
       <created>1614248703580</created>
@@ -423,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614431797624</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="aside 样式">
+      <created>1614434917723</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1614434917724</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +446,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="研究 props 和 attrs 的区别，（之后会删掉）" />
     <MESSAGE value="Button 组件样式雏形" />
     <MESSAGE value="css 最小影响布局原则" />
     <MESSAGE value="支持size属性" />
@@ -467,6 +470,7 @@
     <MESSAGE value="更新切换按钮样式" />
     <MESSAGE value="添加首页导航" />
     <MESSAGE value="创建更多的路由组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建更多的路由组件" />
+    <MESSAGE value="aside 样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="aside 样式" />
   </component>
 </project>
