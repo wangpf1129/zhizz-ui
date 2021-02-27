@@ -1,5 +1,5 @@
 <template>
-  <div>tab-item.vue</div>
+  <slot/>
 </template>
 
 <script lang="ts">

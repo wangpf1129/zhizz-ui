@@ -10,11 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="调整html">
-      <change afterPath="$PROJECT_DIR$/src/lib/TabItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="创建Tabs 和 TabItem 组件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/TabItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/TabItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <workItem from="1614310813184" duration="19055000" />
       <workItem from="1614343711662" duration="5801000" />
       <workItem from="1614398526902" duration="124000" />
-      <workItem from="1614398670243" duration="3652000" />
+      <workItem from="1614398670243" duration="5806000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1614245112176</created>
@@ -362,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614405501853</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="创建Tabs 和 TabItem 组件">
+      <created>1614405857367</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1614405857367</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +387,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="忽略 .idea" />
     <MESSAGE value="将 router 抽离出来" />
     <MESSAGE value="手机端路由切换关闭aside" />
     <MESSAGE value="整体css布局" />
@@ -406,6 +411,7 @@
     <MESSAGE value="使用 Teleport 标签来 避免Dialog被遮挡" />
     <MESSAGE value="利用 动态挂载组件  函数式调用 Dialog组件" />
     <MESSAGE value="调整html" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整html" />
+    <MESSAGE value="创建Tabs 和 TabItem 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建Tabs 和 TabItem 组件" />
   </component>
 </project>
