@@ -15,8 +15,8 @@ const router = createRouter({
   history,
   routes: [
     {
-      path:'/',
-      redirect:'/home'
+      path: '/',
+      redirect: '/home'
     },
     {
       path: '/home',
@@ -25,43 +25,43 @@ const router = createRouter({
     {
       path: '/doc',
       component: Doc,
-      children:[
+      children: [
         {
-          path:'intro',
-          component:Intro
+          path: 'intro',
+          component: Intro
         },
         {
-          path:'start',
-          component:Start
+          path: 'start',
+          component: Start
         },
         {
-          path:'install',
-          component:Install
+          path: 'install',
+          component: Install
         },
         {
-          path:'switch',
-          component:SwitchDemo
+          path: 'switch',
+          component: SwitchDemo
         },
         {
-          path:'button',
-          component:ButtonDemo
+          path: 'button',
+          component: ButtonDemo
         },
         {
-          path:'dialog',
-          component:DialogDemo
+          path: 'dialog',
+          component: DialogDemo
         },
         {
-          path:'tabs',
-          component:TabsDemo
+          path: 'tabs',
+          component: TabsDemo
         }
       ]
     },
     {
-      path:'/:w+',
-      component:NoMatch
+      path: '/:w+',
+      component: NoMatch
     }
   ]
 });
 
 
-export  {router}
+export {router};
