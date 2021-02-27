@@ -1,12 +1,12 @@
 <template>
-  <h2>Doc 默认页面</h2>
+<div>install.vue</div>
 </template>
 
 <script lang="ts">
 
-  export default {
-    name: 'Start',
-  };
+export default{
+ name:'Install',
+}
 </script>
 
 <style lang="scss" scoped>

@@ -10,8 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="更新切换按钮样式">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="添加首页导航">
+      <change afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Start.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Start.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +84,7 @@
       <workItem from="1614343711662" duration="5801000" />
       <workItem from="1614398526902" duration="124000" />
       <workItem from="1614398670243" duration="13759000" />
-      <workItem from="1614417200927" duration="11240000" />
+      <workItem from="1614417200927" duration="12250000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1614245112176</created>
@@ -414,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614430689560</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="添加首页导航">
+      <created>1614430752227</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1614430752227</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +448,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化switch css 代码" />
     <MESSAGE value="创建Button组件" />
     <MESSAGE value="研究 props 和 attrs 的区别，（之后会删掉）" />
     <MESSAGE value="Button 组件样式雏形" />
@@ -458,6 +472,7 @@
     <MESSAGE value="Tabs组件功能完毕" />
     <MESSAGE value="首页 样式" />
     <MESSAGE value="更新切换按钮样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新切换按钮样式" />
+    <MESSAGE value="添加首页导航" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加首页导航" />
   </component>
 </project>

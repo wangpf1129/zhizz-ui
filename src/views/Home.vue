@@ -3,7 +3,7 @@
     <TopNav/>
     <div>
       <section class="banner">
-        <h1>Zhizz UI框架</h1>
+        <h1>Zhizz UI 框架</h1>
         <h2>简约而又不失创造力</h2>
         <div class="actions">
           <a target="_blank" href="https://github.com/wwwpppfffzzz">GitHub</a>

@@ -50,10 +50,11 @@ $textColor: #05538c;
   width: 100%;
   color: $textColor;
   display: flex;
-  padding: 16px;
+  padding: 14px;
   justify-content: center;
   align-items: center;
-  z-index: 10;
+  z-index: 20;
+  background: #fff;
   box-shadow: 0 5px 5px rgb(51 51 51 / 10%);
 
   > .logo {
