@@ -9,7 +9,11 @@
       <li>菜单1</li>
       <li>菜单2</li>
     </ul>
-    <span class="toggleAside" @click="toggleAside"></span>
+    <div v-if="visibleMenuButton" class="toggleAside" @click="toggleAside">
+      <svg class="icon">
+        <use xlink:href="#icon-menu"></use>
+      </svg>
+    </div>
   </section>
 </template>
 
@@ -18,6 +22,12 @@ import {inject, Ref} from 'vue';
 
 export default {
   name: 'TopNav',
+  props: {
+    visibleMenuButton: {
+      type: Boolean,
+      default: false
+    }
+  },
   setup() {
     const asideVisible = inject<Ref<boolean>>('asideVisible');
     const toggleAside = () => {
@@ -70,13 +80,15 @@ $textColor: #05538c;
 
   > .toggleAside {
     display: none;
-    width: 24px;
-    height: 24px;
-    background-color: red;
     position: absolute;
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
+
+    svg {
+      width: 32px;
+      height: 32px;
+    }
 
   }
 
