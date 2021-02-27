@@ -6,6 +6,11 @@
 
 export default {
   name: 'TabItem',
+  props: {
+    title: {
+      type: String
+    }
+  }
 };
 </script>
 
