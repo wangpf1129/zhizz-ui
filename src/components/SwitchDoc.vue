@@ -3,7 +3,7 @@
     <div class="demo">
       <h2>常规用法</h2>
       <div class="demo-component">
-        <SwitchDemo/>
+        <component :is="SwitchDemo"/>
       </div>
       <div class="demo-actions">
         <Button size="small">查看代码</Button>
@@ -21,7 +21,7 @@ import SwitchDemo from '../dmoe-code/SwitchDemo.vue';
 
 export default {
   name: 'SwitchDoc',
-  components: {SwitchDemo, Button},
+  components: {Button},
   setup() {
 
     return {SwitchDemo};
