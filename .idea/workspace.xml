@@ -10,22 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="markdown css">
-      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/start.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="支持markdown，以及写markdown，优化markdown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Start.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,14 +85,7 @@
       <workItem from="1614417200927" duration="16401000" />
       <workItem from="1614436752613" duration="24000" />
       <workItem from="1614491136324" duration="886000" />
-      <workItem from="1614493252103" duration="4160000" />
-    </task>
-    <task id="LOCAL-00004" summary="安装sass,并更新top_nav 样式">
-      <created>1614249838394</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1614249838394</updated>
+      <workItem from="1614493252103" duration="4678000" />
     </task>
     <task id="LOCAL-00005" summary="封装TopNav组件">
       <created>1614250150209</created>
@@ -443,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614436660177</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="支持markdown，以及写markdown，优化markdown">
+      <created>1614497744712</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1614497744713</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +449,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="css 最小影响布局原则" />
     <MESSAGE value="支持size属性" />
     <MESSAGE value="Button组件的 theme 和 size 样式" />
     <MESSAGE value="禁用功能及样式" />
@@ -487,6 +473,7 @@
     <MESSAGE value="创建更多的路由组件" />
     <MESSAGE value="aside 样式" />
     <MESSAGE value="markdown css" />
-    <option name="LAST_COMMIT_MESSAGE" value="markdown css" />
+    <MESSAGE value="支持markdown，以及写markdown，优化markdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="支持markdown，以及写markdown，优化markdown" />
   </component>
 </project>
