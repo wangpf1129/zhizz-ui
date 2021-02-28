@@ -2,10 +2,10 @@ import {createRouter, createWebHashHistory} from 'vue-router';
 import Home from '../views/Home.vue';
 import Doc from '../views/Doc.vue';
 import NoMatch from '../components/NoMatch.vue';
-import SwitchDemo from '../components/SwitchDemo.vue';
-import ButtonDemo from '../components/ButtonDemo.vue';
-import DialogDemo from '../components/DialogDemo.vue';
-import TabsDemo from '../components/TabsDemo.vue';
+import SwitchDoc from '../components/SwitchDoc.vue';
+import ButtonDoc from '../components/ButtonDoc.vue';
+import DialogDoc from '../components/DialogDoc.vue';
+import TabsDoc from '../components/TabsDoc.vue';
 import Markdown from '../components/Markdown.vue';
 import {h} from 'vue';
 
@@ -42,19 +42,19 @@ const router = createRouter({
         },
         {
           path: 'switch',
-          component: SwitchDemo
+          component: SwitchDoc
         },
         {
           path: 'button',
-          component: ButtonDemo
+          component: ButtonDoc
         },
         {
           path: 'dialog',
-          component: DialogDemo
+          component: DialogDoc
         },
         {
           path: 'tabs',
-          component: TabsDemo
+          component: TabsDoc
         }
       ]
     },
