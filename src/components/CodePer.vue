@@ -23,7 +23,7 @@ import {computed, ref} from 'vue';
 const Prism = (window as any).Prism;
 
 export default {
-  name: 'Demo',
+  name: 'CodePer',
   props: {
     component: Object
   },

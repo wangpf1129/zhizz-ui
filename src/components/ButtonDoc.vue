@@ -1,20 +1,20 @@
 <template>
-  <Demo :component="ButtonDemo1"/>
-  <Demo :component="ButtonDemo2"/>
-  <Demo :component="ButtonDemo3"/>
-
+  <CodePer :component="ButtonDemo1"/>
+  <CodePer :component="ButtonDemo2"/>
+  <CodePer :component="ButtonDemo3"/>
 </template>
 
 
 <script lang="ts">
-import Demo from './Demo.vue';
+
 import ButtonDemo1 from '../dmoe-code/ButtonDemo1.vue';
 import ButtonDemo2 from '../dmoe-code/ButtonDemo2.vue';
 import ButtonDemo3 from '../dmoe-code/ButtonDemo3.vue';
+import CodePer from './CodePer.vue';
 
 export default {
   name: 'ButtonDemo',
-  components: {Demo},
+  components: {CodePer},
   setup() {
     const onClick = () => {
       console.log('hi');

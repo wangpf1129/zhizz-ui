@@ -10,11 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="改造 组件 Demo">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="更好 展示源代码的样式">
+      <change afterPath="$PROJECT_DIR$/src/components/Attr.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CodePer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/data.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/prism.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/prism.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dmoe-code/ButtonDemo1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/ButtonDemo1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dmoe-code/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/SwitchDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="TypeScript File" />
         <option value="Vue Single File Component" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -92,14 +98,8 @@
       <workItem from="1614436752613" duration="24000" />
       <workItem from="1614491136324" duration="886000" />
       <workItem from="1614493252103" duration="9432000" />
-      <workItem from="1614503027732" duration="11015000" />
-    </task>
-    <task id="LOCAL-00010" summary="使用 provide 和 inject 来实现 切换aside功能">
-      <created>1614252403192</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1614252403192</updated>
+      <workItem from="1614503027732" duration="11445000" />
+      <workItem from="1614518216382" duration="1604000" />
     </task>
     <task id="LOCAL-00011" summary="使 TopNav组件实现响应式">
       <created>1614252702885</created>
@@ -437,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614517366606</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="更好 展示源代码的样式">
+      <created>1614517771084</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1614517771084</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +463,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dialog组件样式" />
     <MESSAGE value="让 Dialog组件支持 visible 属性" />
     <MESSAGE value="让 Dialog组件支持 点击事件" />
     <MESSAGE value="让 Dialog组件支持 title 和 content" />
@@ -481,6 +487,7 @@
     <MESSAGE value="在template中使用 component 标签来代替 script中的" />
     <MESSAGE value="Doc 页面样式优化" />
     <MESSAGE value="改造 组件 Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="改造 组件 Demo" />
+    <MESSAGE value="更好 展示源代码的样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="更好 展示源代码的样式" />
   </component>
 </project>
