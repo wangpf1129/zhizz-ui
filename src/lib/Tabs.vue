@@ -74,7 +74,7 @@ export default {
 <style lang="scss">
 $selectedColor: #485fc7;
 $color: #4a4a4a;
-$border-color: #363636;
+$border-color: #eee;
 .z-tabs {
   &-nav {
     display: flex;
@@ -92,7 +92,7 @@ $border-color: #363636;
     }
 
     &-indicator {
-      height: 3px;
+      height: 2px;
       width: 100px;
       position: absolute;
       left: 0;

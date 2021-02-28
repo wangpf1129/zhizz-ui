@@ -1,44 +1,28 @@
 <template>
-  <h2>Button 主题</h2>
-  <Button>默认按钮</Button>
-  <Button theme="primary">主要按钮</Button>
-  <Button theme="warning">警告按钮</Button>
-  <Button theme="success">成功按钮</Button>
-  <Button theme="danger">危险按钮</Button>
-  <Button theme="info">信息按钮</Button>
-  <Button theme="link">链接按钮</Button>
-
-  <h2>Button size</h2>
-
-  <Button size="small">超小按钮</Button>
-  <Button size="normal">普通按钮</Button>
-  <Button size="large">大型按钮</Button>
-
-  <h2>Button disable</h2>
-  <Button disabled>禁用按钮</Button>
-
-  <h2>Button loading</h2>
-  <Button loading >加载中</Button>
-
+  <Demo :component="ButtonDemo1"/>
+  <Demo :component="ButtonDemo2"/>
+  <Demo :component="ButtonDemo3"/>
 
 </template>
 
 
 <script lang="ts">
-  import Button from '../lib/Button.vue';
+import Demo from './Demo.vue';
+import ButtonDemo1 from '../dmoe-code/ButtonDemo1.vue';
+import ButtonDemo2 from '../dmoe-code/ButtonDemo2.vue';
+import ButtonDemo3 from '../dmoe-code/ButtonDemo3.vue';
 
-  export default {
-    name: 'ButtonDemo',
-    components: {Button},
-    setup() {
-      const onClick = () => {
-        console.log('hi');
-      };
+export default {
+  name: 'ButtonDemo',
+  components: {Demo},
+  setup() {
+    const onClick = () => {
+      console.log('hi');
+    };
 
-
-      return {onClick};
-    }
-  };
+    return {onClick, ButtonDemo1, ButtonDemo2, ButtonDemo3};
+  }
+};
 </script>
 
 <style lang="scss" scoped>

@@ -10,16 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="在template中使用 component 标签来代替 script中的">
-      <change afterPath="$PROJECT_DIR$/src/assets/style/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="Doc 页面样式优化">
+      <change afterPath="$PROJECT_DIR$/src/dmoe-code/ButtonDemo1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dmoe-code/ButtonDemo2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dmoe-code/ButtonDemo3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dmoe-code/DialogDemo1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dmoe-code/DialogDemo2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dmoe-code/TabsDemo1.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dmoe-code/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/z-vue3-ui-master" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="F:\webstorm\WebStorm 2020.3\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -97,14 +100,7 @@
       <workItem from="1614436752613" duration="24000" />
       <workItem from="1614491136324" duration="886000" />
       <workItem from="1614493252103" duration="9432000" />
-      <workItem from="1614503027732" duration="6364000" />
-    </task>
-    <task id="LOCAL-00008" summary="aside样式以及调节一些它的位置">
-      <created>1614251142215</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1614251142215</updated>
+      <workItem from="1614503027732" duration="10567000" />
     </task>
     <task id="LOCAL-00009" summary="使用 provide 和 inject 来实现 切换aside功能">
       <created>1614252352817</created>
@@ -442,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614499666658</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Doc 页面样式优化">
+      <created>1614510402276</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1614510402276</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +464,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="button 加载功能" />
     <MESSAGE value="创建 Dialog组件" />
     <MESSAGE value="Dialog组件样式" />
     <MESSAGE value="让 Dialog组件支持 visible 属性" />
@@ -486,6 +488,7 @@
     <MESSAGE value="更新 SwitchDemo组件样式" />
     <MESSAGE value="展示源代码" />
     <MESSAGE value="在template中使用 component 标签来代替 script中的" />
-    <option name="LAST_COMMIT_MESSAGE" value="在template中使用 component 标签来代替 script中的" />
+    <MESSAGE value="Doc 页面样式优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doc 页面样式优化" />
   </component>
 </project>
