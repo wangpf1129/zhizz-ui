@@ -6,10 +6,12 @@ import SwitchDemo from '../components/SwitchDemo.vue';
 import ButtonDemo from '../components/ButtonDemo.vue';
 import DialogDemo from '../components/DialogDemo.vue';
 import TabsDemo from '../components/TabsDemo.vue';
-import Intro from '../views/Intro.vue';
-import Start from '../views/Start.vue';
-import Install from '../views/Install.vue';
+import Markdown from '../components/Markdown.vue';
+import {h} from 'vue';
 
+const md = filename => {
+  return h(Markdown, {path: `../markdown/${filename}.md`, key: filename});
+};
 const history = createWebHashHistory();
 const router = createRouter({
   history,
@@ -28,15 +30,15 @@ const router = createRouter({
       children: [
         {
           path: 'intro',
-          component: Intro
-        },
-        {
-          path: 'start',
-          component: Start
+          component: md('intro')
         },
         {
           path: 'install',
-          component: Install
+          component: md('install')
+        },
+        {
+          path: 'start',
+          component: md('start')
         },
         {
           path: 'switch',
