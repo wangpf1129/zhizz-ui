@@ -10,9 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="展示源代码">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="在template中使用 component 标签来代替 script中的">
+      <change afterPath="$PROJECT_DIR$/src/assets/style/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dmoe-code/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="F:\webstorm\WebStorm 2020.3\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -61,6 +68,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\我的项目\zhizz-ui\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\我的项目\zhizz-ui\src\components" />
+      <recent name="G:\我的项目\zhizz-ui\src\components\Tab" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
@@ -85,14 +96,8 @@
       <workItem from="1614417200927" duration="16401000" />
       <workItem from="1614436752613" duration="24000" />
       <workItem from="1614491136324" duration="886000" />
-      <workItem from="1614493252103" duration="6145000" />
-    </task>
-    <task id="LOCAL-00007" summary="初始化aside的HTML">
-      <created>1614250844530</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1614250844530</updated>
+      <workItem from="1614493252103" duration="9432000" />
+      <workItem from="1614503027732" duration="6364000" />
     </task>
     <task id="LOCAL-00008" summary="aside样式以及调节一些它的位置">
       <created>1614251142215</created>
@@ -430,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614499570375</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="在template中使用 component 标签来代替 script中的">
+      <created>1614499666658</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1614499666658</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +461,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="禁用功能及样式" />
     <MESSAGE value="button 加载功能" />
     <MESSAGE value="创建 Dialog组件" />
     <MESSAGE value="Dialog组件样式" />
@@ -474,6 +485,7 @@
     <MESSAGE value="支持markdown，以及写markdown，优化markdown" />
     <MESSAGE value="更新 SwitchDemo组件样式" />
     <MESSAGE value="展示源代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="展示源代码" />
+    <MESSAGE value="在template中使用 component 标签来代替 script中的" />
+    <option name="LAST_COMMIT_MESSAGE" value="在template中使用 component 标签来代替 script中的" />
   </component>
 </project>

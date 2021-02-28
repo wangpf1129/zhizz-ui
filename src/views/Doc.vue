@@ -2,7 +2,7 @@
   <div class="layout">
     <TopNav class="nav" :visibleMenuButton="true"/>
     <section class="content">
-      <aside v-if="asideVisible" class="aside_menu">
+      <aside class="aside_menu" :class="{visible:asideVisible}">
         <h2>文档</h2>
         <ol>
           <li>
@@ -72,11 +72,8 @@ export default {
     padding-top: 80px;
     padding-left: 156px;
 
-    @media (max-width: 500px) {
-      padding-left: 0;
-    }
 
-    aside {
+    .aside_menu {
       position: fixed;
       left: 0;
       top: 0;
@@ -123,6 +120,7 @@ export default {
               height: 100%;
               border-right: 3px solid #6b9ab8;
             }
+
           }
         }
       }
@@ -131,8 +129,33 @@ export default {
     main {
       flex: 1;
       height: 100vh;
+      max-width: 800px;
       overflow: auto;
-      padding: 60px 130px;
+      padding: 60px 180px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .layout {
+    > .content {
+      padding-left: 0;
+
+      .aside_menu {
+        width: 180px;
+        background-color: #fff;
+        transition: all 0.25s ease;
+        transform: translateX(-200px);
+
+        &.visible {
+          transform: translateX(0px);
+        }
+      }
+
+      main {
+        padding: 20px 8px;
+        margin: 0 auto;
+      }
     }
 
   }
