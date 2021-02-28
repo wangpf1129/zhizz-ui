@@ -1,20 +1,22 @@
 <template>
+  <doc-title>Dialog 对话框示例</doc-title>
   <CodePer :component="DialogDemo1"/>
   <CodePer :component="DialogDemo2"/>
   <Attr :columns="columns" :data="data"/>
 </template>
 
 <script lang="ts">
-import DialogDemo1 from '../dmoe-code/DialogDemo1.vue';
-import DialogDemo2 from '../dmoe-code/DialogDemo2.vue';
-import CodePer from './CodePer.vue';
-import {columns} from '../lib/data';
-import Attr from './Attr.vue';
+import DialogDemo1 from '../../dmoe-code/DialogDemo1.vue';
+import DialogDemo2 from '../../dmoe-code/DialogDemo2.vue';
+import CodePer from '../CodePer.vue';
+import {columns} from '../../lib/data';
+import Attr from '../Attr.vue';
 import {ref} from 'vue';
+import DocTitle from '../DocTitle.vue';
 
 export default {
   name: 'DialogDemo',
-  components: {Attr, CodePer, DialogDemo2, DialogDemo1},
+  components: {DocTitle, Attr, CodePer, DialogDemo2, DialogDemo1},
   setup() {
     const data = ref([
       {

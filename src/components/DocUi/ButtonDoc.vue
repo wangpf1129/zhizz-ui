@@ -1,26 +1,26 @@
 <template>
+  <doc-title>Button 按钮示例</doc-title>
   <CodePer :component="ButtonDemo1"/>
   <CodePer :component="ButtonDemo2"/>
   <CodePer :component="ButtonDemo3"/>
-
   <Attr :columns="columns" :data="data"/>
-
 </template>
 
 
 <script lang="ts">
 
-import ButtonDemo1 from '../dmoe-code/ButtonDemo1.vue';
-import ButtonDemo2 from '../dmoe-code/ButtonDemo2.vue';
-import ButtonDemo3 from '../dmoe-code/ButtonDemo3.vue';
-import CodePer from './CodePer.vue';
-import Attr from './Attr.vue';
-import {columns} from '../lib/data';
+import ButtonDemo1 from '../../dmoe-code/ButtonDemo1.vue';
+import ButtonDemo2 from '../../dmoe-code/ButtonDemo2.vue';
+import ButtonDemo3 from '../../dmoe-code/ButtonDemo3.vue';
+import CodePer from '../CodePer.vue';
+import Attr from '../Attr.vue';
+import {columns} from '../../lib/data';
 import {ref} from 'vue';
+import DocTitle from '../DocTitle.vue';
 
 export default {
   name: 'ButtonDemo',
-  components: {Attr, CodePer},
+  components: {DocTitle, Attr, CodePer},
   setup() {
     const data = ref([
       {

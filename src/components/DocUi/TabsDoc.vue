@@ -1,25 +1,27 @@
 <template>
+  <doc-title>Tabs 标签栏示例</doc-title>
   <CodePer :component="TabsDemo1"/>
   <Attr :columns="columns" :data="data"/>
 </template>
 
 <script lang="ts">
 import {ref} from 'vue';
-import TabsDemo1 from '../dmoe-code/TabsDemo1.vue';
-import CodePer from './CodePer.vue';
-import Attr from './Attr.vue';
-import {columns} from '../lib/data';
+import TabsDemo1 from '../../dmoe-code/TabsDemo1.vue';
+import CodePer from '../CodePer.vue';
+import Attr from '../Attr.vue';
+import {columns} from '../../lib/data';
+import DocTitle from '../DocTitle.vue';
 
 export default {
   name: 'TabsDemo',
-  components: {Attr, CodePer, TabsDemo1},
+  components: {DocTitle, Attr, CodePer, TabsDemo1},
   setup() {
     const data = ref([
       {
-        params: 'z-tab-item',
+        params: 'tab-item',
         desc: 'tab页签',
         type: 'component',
-        select: 'z-tab-item',
+        select: 'tab-item',
         default: '--',
       },
     ]);
