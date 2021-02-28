@@ -9,7 +9,7 @@
         {{ codeVisible === true ? '隐藏代码' : '显示代码' }}
       </div>
       <div class="demo-code" v-if="codeVisible">
-        <pre class="language-css" v-html="html"/>
+        <pre class="language-html" v-html="html"/>
       </div>
     </div>
   </div>

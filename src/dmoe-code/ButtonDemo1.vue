@@ -3,7 +3,7 @@
 </demo>
 
 <template>
-  <Button>默认</Button>
+  <Button>默认按钮</Button>
   <Button theme="primary">主要按钮</Button>
   <Button theme="warning">警告按钮</Button>
   <Button theme="success">成功按钮</Button>
