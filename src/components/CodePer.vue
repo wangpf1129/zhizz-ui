@@ -65,7 +65,6 @@ $border-color: #ebebeb;
     padding: 8px 16px;
     border-top: 1px dashed $border-color;
     color: #ccc;
-
     &:hover {
       color: #4d86af;
       background-color: #f9fafc;
@@ -73,14 +72,10 @@ $border-color: #ebebeb;
   }
 
   &-code {
+    overflow-x: auto;
+    min-width: 300px;
     padding: 8px 16px;
     border-top: 1px dashed $border-color;
-
-    &.codeVisible {
-      border: 1px solid red;
-
-    }
-
     > pre {
       line-height: 1.1;
       font-family: Consolas, 'Courier New', Courier, monospace;

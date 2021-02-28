@@ -107,10 +107,15 @@ export default {
             cursor: pointer;
             color: #333;
 
+            &:hover {
+              background: #e5f2fa;
+              border-bottom: none;
+            }
           }
 
           .router-link-active {
             background-color: #e5f2fa;
+            border-right: none;
 
             &:after {
               content: '';
@@ -120,7 +125,6 @@ export default {
               height: 100%;
               border-right: 3px solid #6b9ab8;
             }
-
           }
         }
       }
@@ -128,7 +132,6 @@ export default {
 
     main {
       flex: 1;
-      max-width: 800px;
       overflow: auto;
       padding: 60px 180px;
     }
@@ -152,11 +155,11 @@ export default {
       }
 
       main {
+        overflow: auto;
         padding: 20px 8px;
         margin: 0 auto;
       }
     }
-
   }
 }
 </style>

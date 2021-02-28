@@ -6,8 +6,8 @@
       </svg>
     </router-link>
     <ul class="menu">
-      <li>菜单1</li>
-      <li>菜单2</li>
+      <li><router-link to="/doc">文档</router-link></li>
+      <li><a href="https://wwwpppfffzzz.github.io/" target="_blank" >博客</a></li>
     </ul>
     <div v-if="visibleMenuButton" class="toggleAside" @click="toggleAside">
       <svg class="icon">
@@ -76,6 +76,10 @@ $textColor: #05538c;
 
     > li {
       margin: 0 1em;
+      > a{
+        color: inherit;
+
+      }
     }
   }
 

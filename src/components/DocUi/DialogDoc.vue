@@ -27,6 +27,27 @@ export default {
         default: 'normal',
       },
       {
+        params: 'width',
+        desc: '宽度',
+        type: 'string',
+        select: '0%~100%',
+        default: '60%',
+      },
+      {
+        params: 'top',
+        desc: '顶部距离',
+        type: 'string',
+        select: '数字+px',
+        default: '130px',
+      },
+      {
+        params: 'visible',
+        desc: '是否展示',
+        type: 'boolean',
+        select: 'true / false',
+        default: 'normal',
+      },
+      {
         params: 'closeOnClickOverlay',
         desc: '是否点击遮罩层关闭弹出框',
         type: 'boolean',

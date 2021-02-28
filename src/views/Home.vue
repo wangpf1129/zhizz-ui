@@ -58,6 +58,12 @@ $textColor: #05538c;
     background: transparent;
   }
 
+  @media (max-width: 500px) {
+    ::v-deep(.top_nav) {
+      background: #fff;
+    }
+  }
+
   .banner {
     padding: 180px 0 150px;
     color: $textColor;

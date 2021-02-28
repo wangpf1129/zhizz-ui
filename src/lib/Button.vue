@@ -35,10 +35,6 @@ export default {
       const loadingClass = loading ? " z-button-loading" : "";
 
       return `z-button-theme-${theme} z-button-size-${size}${loadingClass}`;
-      // return {
-      //   [`z-button-theme-${theme}`]: theme,
-      //   [`z-button-size-${size}`]: size,
-      // };
     });
 
     return { classes };
@@ -64,11 +60,7 @@ $radius: 4px;
   white-space: nowrap;
   box-sizing: border-box;
   font-size: 14px;
-
-  & + & {
-    margin-left: 8px;
-    margin-bottom: 8px;
-  }
+  margin: 8px;
 
   &:focus {
     outline: none;

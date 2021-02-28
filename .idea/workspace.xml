@@ -10,14 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="编写 属性参数">
-      <change afterPath="$PROJECT_DIR$/src/components/DocTitle.vue" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="优化 移动端样式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocUi/ButtonDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocUi/DialogDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocUi/SwitchDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocUi/TabsDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CodePer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CodePer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DocUi/DialogDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocUi/DialogDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,21 +96,7 @@
       <workItem from="1614491136324" duration="886000" />
       <workItem from="1614493252103" duration="9432000" />
       <workItem from="1614503027732" duration="11445000" />
-      <workItem from="1614518216382" duration="3531000" />
-    </task>
-    <task id="LOCAL-00013" summary="忽略 .idea">
-      <created>1614253691451</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1614253691451</updated>
-    </task>
-    <task id="LOCAL-00014" summary="将 router 抽离出来">
-      <created>1614254304865</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1614254304865</updated>
+      <workItem from="1614518216382" duration="6240000" />
     </task>
     <task id="LOCAL-00015" summary="手机端路由切换关闭aside">
       <created>1614256319984</created>
@@ -442,7 +427,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614520766162</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="抽离 DocTitle">
+      <created>1614521803295</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1614521803295</updated>
+    </task>
+    <task id="LOCAL-00063" summary="优化 移动端样式">
+      <created>1614523351236</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1614523351236</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,8 +460,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="让 Dialog组件支持 title 和 content" />
-    <MESSAGE value="使用具名插槽， 以及 添加 width 和 top 属性" />
     <MESSAGE value="使用 Teleport 标签来 避免Dialog被遮挡" />
     <MESSAGE value="利用 动态挂载组件  函数式调用 Dialog组件" />
     <MESSAGE value="调整html" />
@@ -486,6 +483,8 @@
     <MESSAGE value="更好 展示源代码的样式" />
     <MESSAGE value="添加 Attr 组件 用来写属性" />
     <MESSAGE value="编写 属性参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="编写 属性参数" />
+    <MESSAGE value="抽离 DocTitle" />
+    <MESSAGE value="优化 移动端样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化 移动端样式" />
   </component>
 </project>
