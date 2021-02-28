@@ -2,6 +2,9 @@
   <CodePer :component="ButtonDemo1"/>
   <CodePer :component="ButtonDemo2"/>
   <CodePer :component="ButtonDemo3"/>
+
+  <Attr :columns="columns" :data="data"/>
+
 </template>
 
 
@@ -11,16 +14,42 @@ import ButtonDemo1 from '../dmoe-code/ButtonDemo1.vue';
 import ButtonDemo2 from '../dmoe-code/ButtonDemo2.vue';
 import ButtonDemo3 from '../dmoe-code/ButtonDemo3.vue';
 import CodePer from './CodePer.vue';
+import Attr from './Attr.vue';
+import {columns} from '../lib/data';
+import {ref} from 'vue';
 
 export default {
   name: 'ButtonDemo',
-  components: {CodePer},
+  components: {Attr, CodePer},
   setup() {
+    const data = ref([
+      {
+        params: 'theme',
+        desc: '按钮颜色',
+        type: 'string',
+        select: 'primary / warning / success / danger / info / link',
+        default: 'default',
+      },
+      {
+        params: 'size',
+        desc: '尺寸大小',
+        type: 'string',
+        select: 'small / normal / large',
+        default: 'normal',
+      },
+      {
+        params: 'loading',
+        desc: '是否加载',
+        type: 'boolean',
+        select: 'false / true',
+        default: 'false',
+      }
+    ]);
     const onClick = () => {
       console.log('hi');
     };
 
-    return {onClick, ButtonDemo1, ButtonDemo2, ButtonDemo3};
+    return {onClick, ButtonDemo1, ButtonDemo2, ButtonDemo3, columns, data};
   }
 };
 </script>

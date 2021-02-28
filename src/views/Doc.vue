@@ -128,7 +128,6 @@ export default {
 
     main {
       flex: 1;
-      height: 100vh;
       max-width: 800px;
       overflow: auto;
       padding: 60px 180px;

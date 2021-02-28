@@ -4,12 +4,12 @@
     <table class="attr-table">
       <thead>
       <tr>
-        <th class="z-attr-title" v-for="(item,index) in columns">{{ item.title }}</th>
+        <th class="z-attr-title" v-for="(item,index) in columns" :key="index">{{ item.title }}</th>
       </tr>
       </thead>
       <tbody>
-      <tr v-for="(item,index) in data">
-        <td class="z-attr-title td" v-for="(value,key) in item">{{ value }}</td>
+      <tr v-for="item in data">
+        <td class="z-attr-title td" v-for="(value,key) in item" :key="key">{{ value }}</td>
       </tr>
       </tbody>
     </table>
@@ -63,6 +63,7 @@ export default {
 
   .td {
     color: #606266;
+    font-size: 14px;
   }
 }
 </style>
