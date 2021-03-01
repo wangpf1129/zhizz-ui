@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="加个进度条样式， 完善文档内容">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="修改标题及ICO图标">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/z-vue3-ui-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="F:\webstorm\WebStorm 2020.3\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -61,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\我的项目\zhizz-ui\public" />
       <recent name="G:\我的项目\zhizz-ui\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -94,14 +94,7 @@
       <workItem from="1614493252103" duration="9432000" />
       <workItem from="1614503027732" duration="11445000" />
       <workItem from="1614518216382" duration="6967000" />
-      <workItem from="1614585593845" duration="3962000" />
-    </task>
-    <task id="LOCAL-00019" summary="Switch组件样式基本完成">
-      <created>1614259805304</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1614259805304</updated>
+      <workItem from="1614585593845" duration="4754000" />
     </task>
     <task id="LOCAL-00020" summary="使用v-model">
       <created>1614261958223</created>
@@ -439,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614590196767</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="修改标题及ICO图标">
+      <created>1614590686601</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1614590686602</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +458,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="调整html" />
     <MESSAGE value="创建Tabs 和 TabItem 组件" />
     <MESSAGE value="渲染内容，以及HTML结构的搭建" />
     <MESSAGE value="Tabs组件样式" />
@@ -483,6 +482,7 @@
     <MESSAGE value="优化 移动端样式" />
     <MESSAGE value="解决 rollup 不能动态加载字符串的问题，采用静态加载" />
     <MESSAGE value="加个进度条样式， 完善文档内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="加个进度条样式， 完善文档内容" />
+    <MESSAGE value="修改标题及ICO图标" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改标题及ICO图标" />
   </component>
 </project>
