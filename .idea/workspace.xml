@@ -10,11 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="优化 移动端样式">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="解决 rollup 不能动态加载字符串的问题，采用静态加载">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/start.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/z-vue3-ui-master" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="F:\webstorm\WebStorm 2020.3\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -95,14 +97,7 @@
       <workItem from="1614493252103" duration="9432000" />
       <workItem from="1614503027732" duration="11445000" />
       <workItem from="1614518216382" duration="6967000" />
-      <workItem from="1614585593845" duration="970000" />
-    </task>
-    <task id="LOCAL-00017" summary="整体css布局">
-      <created>1614257182551</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1614257182551</updated>
+      <workItem from="1614585593845" duration="3386000" />
     </task>
     <task id="LOCAL-00018" summary="完成基本框架">
       <created>1614257549876</created>
@@ -440,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614525035861</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="解决 rollup 不能动态加载字符串的问题，采用静态加载">
+      <created>1614586643207</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1614586643208</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +461,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="使用 Teleport 标签来 避免Dialog被遮挡" />
     <MESSAGE value="利用 动态挂载组件  函数式调用 Dialog组件" />
     <MESSAGE value="调整html" />
     <MESSAGE value="创建Tabs 和 TabItem 组件" />
@@ -484,6 +485,7 @@
     <MESSAGE value="编写 属性参数" />
     <MESSAGE value="抽离 DocTitle" />
     <MESSAGE value="优化 移动端样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化 移动端样式" />
+    <MESSAGE value="解决 rollup 不能动态加载字符串的问题，采用静态加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决 rollup 不能动态加载字符串的问题，采用静态加载" />
   </component>
 </project>
