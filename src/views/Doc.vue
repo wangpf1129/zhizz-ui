@@ -8,12 +8,6 @@
           <li>
             <router-link to="/doc/intro">介绍</router-link>
           </li>
-          <li>
-            <router-link to="/doc/install">快速入手</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/start">开始使用</router-link>
-          </li>
         </ol>
         <h2>组件列表</h2>
         <ol>
@@ -28,6 +22,27 @@
           </li>
           <li>
             <router-link to="/doc/tabs">Tabs 组件</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/unfinished">未完待续...</router-link>
+          </li>
+        </ol>
+        <h2>其他项目</h2>
+        <ol>
+          <li>
+            <router-link to="/doc/bookkeeping-vue">清栀记账-Vue版</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/bookkeeping-react">清栀记账-React版</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/naruto">手绘漩涡鸣人</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/blog">博客（技术文章和学习笔记）</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/more-project">更多项目</router-link>
           </li>
         </ol>
       </aside>
@@ -86,7 +101,7 @@ export default {
       border-right: 1px solid #e8e8e8;
       z-index: 10;
       box-shadow: 5px 0 5px rgb(51 51 51 / 10%);
-
+      &::-webkit-scrollbar { width: 0 !important }
       > h2 {
         margin-bottom: 4px;
         line-height: 22px;

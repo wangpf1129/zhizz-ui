@@ -3,7 +3,7 @@
     <TopNav/>
     <div>
       <section class="banner">
-        <h1>Zhizz UI 框架</h1>
+        <h1>Zhizz UI 官网</h1>
         <h2>简约而又不失创造力</h2>
         <div class="actions">
           <a target="_blank" href="https://github.com/wwwpppfffzzz">GitHub</a>
@@ -130,7 +130,7 @@ $textColor: #05538c;
       > li {
 
         width: 300px;
-        margin: 16px 0px;
+        margin: 16px 0;
         display: grid;
         justify-content: start;
         align-content: space-between;

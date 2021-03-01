@@ -10,12 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="add 一键部署脚本">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="更改一下Vue版本">
+      <change afterPath="$PROJECT_DIR$/src/markdown/blog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/more-project.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/naruto.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/unfinished.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/bookkeeping-react.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/bookkeeping-vue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookkeeping-vue" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="F:\webstorm\WebStorm 2020.3\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -98,14 +105,7 @@
       <workItem from="1614503027732" duration="11445000" />
       <workItem from="1614518216382" duration="6967000" />
       <workItem from="1614585593845" duration="4754000" />
-      <workItem from="1614591909408" duration="2960000" />
-    </task>
-    <task id="LOCAL-00021" summary="优化switch css 代码">
-      <created>1614262266441</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1614262266441</updated>
+      <workItem from="1614591909408" duration="11747000" />
     </task>
     <task id="LOCAL-00022" summary="优化switch css 代码">
       <created>1614265300584</created>
@@ -443,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614592111444</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="更改一下Vue版本">
+      <created>1614595629826</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1614595629826</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,8 +469,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="渲染内容，以及HTML结构的搭建" />
-    <MESSAGE value="Tabs组件样式" />
     <MESSAGE value="实现切换内容功能" />
     <MESSAGE value="Tabs组件功能完毕" />
     <MESSAGE value="首页 样式" />
@@ -487,6 +492,8 @@
     <MESSAGE value="加个进度条样式， 完善文档内容" />
     <MESSAGE value="修改标题及ICO图标" />
     <MESSAGE value="add 一键部署脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 一键部署脚本" />
+    <MESSAGE value="更改以下Vue版本" />
+    <MESSAGE value="更改一下Vue版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改一下Vue版本" />
   </component>
 </project>

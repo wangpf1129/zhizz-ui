@@ -8,6 +8,4 @@
 ## 源码
 如果你觉得对官网和UI组件源码有兴趣，那么可以访问我的 [GitHub](https://github.com/wwwpppfffzzz/zhizz-ui) 查看源码
 
-运行方式见下一章
 
-下一节：[快速入手](#/doc/install)
