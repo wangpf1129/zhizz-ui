@@ -10,13 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="解决 rollup 不能动态加载字符串的问题，采用静态加载">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="加个进度条样式， 完善文档内容">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/start.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +94,7 @@
       <workItem from="1614493252103" duration="9432000" />
       <workItem from="1614503027732" duration="11445000" />
       <workItem from="1614518216382" duration="6967000" />
-      <workItem from="1614585593845" duration="3386000" />
-    </task>
-    <task id="LOCAL-00018" summary="完成基本框架">
-      <created>1614257549876</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1614257549876</updated>
+      <workItem from="1614585593845" duration="3962000" />
     </task>
     <task id="LOCAL-00019" summary="Switch组件样式基本完成">
       <created>1614259805304</created>
@@ -442,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614586643208</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="加个进度条样式， 完善文档内容">
+      <created>1614590196767</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1614590196767</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +458,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="利用 动态挂载组件  函数式调用 Dialog组件" />
     <MESSAGE value="调整html" />
     <MESSAGE value="创建Tabs 和 TabItem 组件" />
     <MESSAGE value="渲染内容，以及HTML结构的搭建" />
@@ -486,6 +482,7 @@
     <MESSAGE value="抽离 DocTitle" />
     <MESSAGE value="优化 移动端样式" />
     <MESSAGE value="解决 rollup 不能动态加载字符串的问题，采用静态加载" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决 rollup 不能动态加载字符串的问题，采用静态加载" />
+    <MESSAGE value="加个进度条样式， 完善文档内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="加个进度条样式， 完善文档内容" />
   </component>
 </project>
