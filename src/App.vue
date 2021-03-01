@@ -8,7 +8,6 @@
   import progress from 'nprogress';
   import 'nprogress/nprogress.css'
 
-  console.log(progress);
   export default {
     name: 'App',
     setup() {
