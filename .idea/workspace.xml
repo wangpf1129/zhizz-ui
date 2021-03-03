@@ -10,11 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="更新 markdown 内容">
-      <change afterPath="$PROJECT_DIR$/src/markdown/virusmap.md" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="添加一个项目介绍">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/markdown/naruto.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/naruto.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,21 +98,7 @@
       <workItem from="1614518216382" duration="6967000" />
       <workItem from="1614585593845" duration="4754000" />
       <workItem from="1614591909408" duration="12252000" />
-      <workItem from="1614751530322" duration="2620000" />
-    </task>
-    <task id="LOCAL-00024" summary="研究 props 和 attrs 的区别，（之后会删掉）">
-      <created>1614313327148</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1614313327148</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Button 组件样式雏形">
-      <created>1614323149719</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1614323149719</updated>
+      <workItem from="1614751530322" duration="2994000" />
     </task>
     <task id="LOCAL-00026" summary="css 最小影响布局原则">
       <created>1614323849975</created>
@@ -444,7 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614751730083</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="修改侧边栏样式">
+      <created>1614754213453</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1614754213454</updated>
+    </task>
+    <task id="LOCAL-00074" summary="添加一个项目介绍">
+      <created>1614754241116</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1614754241116</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,8 +462,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="首页 样式" />
-    <MESSAGE value="更新切换按钮样式" />
     <MESSAGE value="添加首页导航" />
     <MESSAGE value="创建更多的路由组件" />
     <MESSAGE value="aside 样式" />
@@ -488,6 +485,8 @@
     <MESSAGE value="更改一下Vue版本" />
     <MESSAGE value="填写内容，" />
     <MESSAGE value="更新 markdown 内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 markdown 内容" />
+    <MESSAGE value="修改侧边栏样式" />
+    <MESSAGE value="添加一个项目介绍" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加一个项目介绍" />
   </component>
 </project>
