@@ -30,6 +30,9 @@
         <h2>其他项目</h2>
         <ol>
           <li>
+            <router-link to="/doc/blog">博客（技术文章和学习笔记）</router-link>
+          </li>
+          <li>
             <router-link to="/doc/bookkeeping-vue">清栀记账-Vue版</router-link>
           </li>
           <li>
@@ -39,7 +42,7 @@
             <router-link to="/doc/naruto">手绘漩涡鸣人</router-link>
           </li>
           <li>
-            <router-link to="/doc/blog">博客（技术文章和学习笔记）</router-link>
+            <router-link to="/doc/virus-map">世界疫情图</router-link>
           </li>
           <li>
             <router-link to="/doc/more-project">更多项目</router-link>
@@ -94,14 +97,15 @@ export default {
       top: 0;
       bottom: 0;
       margin-top: 80px;
-      height: 100%;
+      height: auto;
       width: 260px;
       overflow-x: hidden;
-      overflow-y: auto;
+      overflow-y: scroll;
       border-right: 1px solid #e8e8e8;
       z-index: 10;
       box-shadow: 5px 0 5px rgb(51 51 51 / 10%);
-      &::-webkit-scrollbar { width: 0 !important }
+      //&::-webkit-scrollbar { width: 0 !important }
+      padding-bottom: 32px;
       > h2 {
         margin-bottom: 4px;
         line-height: 22px;
