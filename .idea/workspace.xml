@@ -10,20 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="更改一下Vue版本">
-      <change afterPath="$PROJECT_DIR$/src/markdown/blog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/more-project.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/naruto.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/unfinished.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/bookkeeping-react.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/bookkeeping-vue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-    </list>
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="填写内容，" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,14 +92,7 @@
       <workItem from="1614503027732" duration="11445000" />
       <workItem from="1614518216382" duration="6967000" />
       <workItem from="1614585593845" duration="4754000" />
-      <workItem from="1614591909408" duration="11747000" />
-    </task>
-    <task id="LOCAL-00022" summary="优化switch css 代码">
-      <created>1614265300584</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1614265300584</updated>
+      <workItem from="1614591909408" duration="12252000" />
     </task>
     <task id="LOCAL-00023" summary="创建Button组件">
       <created>1614311373076</created>
@@ -450,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614595629826</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="填写内容，">
+      <created>1614609362249</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1614609362249</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +456,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现切换内容功能" />
     <MESSAGE value="Tabs组件功能完毕" />
     <MESSAGE value="首页 样式" />
     <MESSAGE value="更新切换按钮样式" />
@@ -494,6 +480,7 @@
     <MESSAGE value="add 一键部署脚本" />
     <MESSAGE value="更改以下Vue版本" />
     <MESSAGE value="更改一下Vue版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改一下Vue版本" />
+    <MESSAGE value="填写内容，" />
+    <option name="LAST_COMMIT_MESSAGE" value="填写内容，" />
   </component>
 </project>
