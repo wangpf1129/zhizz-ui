@@ -13,8 +13,7 @@
     <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="添加一个项目介绍">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/naruto.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/naruto.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dist" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -54,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Naruto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="F:\webstorm\WebStorm 2020.3\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -98,14 +97,8 @@
       <workItem from="1614518216382" duration="6967000" />
       <workItem from="1614585593845" duration="4754000" />
       <workItem from="1614591909408" duration="12252000" />
-      <workItem from="1614751530322" duration="2994000" />
-    </task>
-    <task id="LOCAL-00026" summary="css 最小影响布局原则">
-      <created>1614323849975</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1614323849975</updated>
+      <workItem from="1614751530322" duration="5786000" />
+      <workItem from="1615195471905" duration="92000" />
     </task>
     <task id="LOCAL-00027" summary="支持size属性">
       <created>1614325005083</created>
@@ -443,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614754241116</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="添加一个项目介绍">
+      <created>1614754554704</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1614754554704</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
