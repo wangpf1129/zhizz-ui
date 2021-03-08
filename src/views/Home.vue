@@ -3,7 +3,7 @@
     <TopNav/>
     <div>
       <section class="banner">
-        <h1>清栀 官网</h1>
+        <h1>清栀UI 官网</h1>
         <h2>简约而又不失创造力</h2>
         <div class="actions">
           <a target="_blank" href="https://github.com/wwwpppfffzzz">GitHub</a>

@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="添加一个项目介绍">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="modify name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dist" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -98,14 +98,8 @@
       <workItem from="1614585593845" duration="4754000" />
       <workItem from="1614591909408" duration="12252000" />
       <workItem from="1614751530322" duration="5786000" />
-      <workItem from="1615195471905" duration="92000" />
-    </task>
-    <task id="LOCAL-00027" summary="支持size属性">
-      <created>1614325005083</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1614325005083</updated>
+      <workItem from="1615195471905" duration="791000" />
+      <workItem from="1615196322936" duration="922000" />
     </task>
     <task id="LOCAL-00028" summary="Button组件的 theme 和 size 样式">
       <created>1614326845533</created>
@@ -443,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614754554704</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="modify name">
+      <created>1615195626417</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1615195626417</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +463,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加首页导航" />
     <MESSAGE value="创建更多的路由组件" />
     <MESSAGE value="aside 样式" />
     <MESSAGE value="markdown css" />
@@ -487,6 +487,7 @@
     <MESSAGE value="更新 markdown 内容" />
     <MESSAGE value="修改侧边栏样式" />
     <MESSAGE value="添加一个项目介绍" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加一个项目介绍" />
+    <MESSAGE value="modify name" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify name" />
   </component>
 </project>
