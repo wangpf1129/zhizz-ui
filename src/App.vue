@@ -3,6 +3,7 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
   import {ref, provide} from 'vue';
   import {router} from './router';
   import progress from 'nprogress';

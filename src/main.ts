@@ -1,4 +1,4 @@
-import {createApp} from 'vue';
+import {createApp} from 'vue'
 import './_z.scss';
 import './index.scss';
 import 'github-markdown-css';
