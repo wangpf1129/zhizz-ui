@@ -6,8 +6,8 @@
 </template>
 
 <script lang="ts">
-import DialogDemo1 from '../../dmoe-code/DialogDemo1.vue';
-import DialogDemo2 from '../../dmoe-code/DialogDemo2.vue';
+import DialogDemo1 from '../../dmoe-code/DemoDialog/DialogDemo1.vue';
+import DialogDemo2 from '../../dmoe-code/DemoDialog/DialogDemo2.vue';
 import CodePer from '../CodePer.vue';
 import {columns} from '../../lib/data';
 import Attr from '../Attr.vue';

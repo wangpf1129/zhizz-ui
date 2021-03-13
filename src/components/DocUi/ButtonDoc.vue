@@ -9,9 +9,9 @@
 
 <script lang="ts">
 
-import ButtonDemo1 from '../../dmoe-code/ButtonDemo1.vue';
-import ButtonDemo2 from '../../dmoe-code/ButtonDemo2.vue';
-import ButtonDemo3 from '../../dmoe-code/ButtonDemo3.vue';
+import ButtonDemo1 from '../../dmoe-code/DomeButton/ButtonDemo1.vue';
+import ButtonDemo2 from '../../dmoe-code/DomeButton/ButtonDemo2.vue';
+import ButtonDemo3 from '../../dmoe-code/DomeButton/ButtonDemo3.vue';
 import CodePer from '../CodePer.vue';
 import Attr from '../Attr.vue';
 import {columns} from '../../lib/data';

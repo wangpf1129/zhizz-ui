@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import SwitchDemo from '../../dmoe-code/SwitchDemo.vue';
+import SwitchDemo from '../../dmoe-code/DemoSwitch/SwitchDemo.vue';
 import CodePer from '../CodePer.vue';
 import Markdown from '../Markdown.vue';
 import Attr from '../Attr.vue';

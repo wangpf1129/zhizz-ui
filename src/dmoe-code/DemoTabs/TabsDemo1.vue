@@ -11,8 +11,8 @@
 
 <script lang="ts">
 
-import Tabs from '../lib/Tabs.vue';
-import TabItem from '../lib/TabItem.vue';
+import Tabs from '../../lib/Tabs.vue';
+import TabItem from '../../lib/TabItem.vue';
 import {ref} from 'vue';
 
 export default {

@@ -6,6 +6,8 @@ import SwitchDoc from '../components/DocUi/SwitchDoc.vue';
 import ButtonDoc from '../components/DocUi/ButtonDoc.vue';
 import DialogDoc from '../components/DocUi/DialogDoc.vue';
 import TabsDoc from '../components/DocUi/TabsDoc.vue';
+import InputDoc from '../components/DocUi/InputDoc.vue';
+
 import Markdown from '../components/Markdown.vue';
 import intro from '../markdown/intro.md'
 import bookkeeping_react from '../markdown/bookkeeping-react.md'
@@ -50,7 +52,9 @@ const router = createRouter({
         {path: 'switch', component: SwitchDoc},
         {path: 'button', component: ButtonDoc},
         {path: 'dialog', component: DialogDoc},
-        {path: 'tabs', component: TabsDoc}
+        {path: 'tabs', component: TabsDoc},
+        {path: 'input', component: InputDoc},
+
       ]
     },
     {

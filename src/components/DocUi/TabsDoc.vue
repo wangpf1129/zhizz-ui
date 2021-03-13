@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import {ref} from 'vue';
-import TabsDemo1 from '../../dmoe-code/TabsDemo1.vue';
+import TabsDemo1 from '../../dmoe-code/DemoTabs/TabsDemo1.vue';
 import CodePer from '../CodePer.vue';
 import Attr from '../Attr.vue';
 import {columns} from '../../lib/data';
