@@ -15,16 +15,19 @@
             <router-link to="/doc/switch">Switch 组件</router-link>
           </li>
           <li>
+            <router-link to="/doc/radio">Radio 组件</router-link>
+          </li>
+          <li>
             <router-link to="/doc/button">Button 组件</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/input">Input 组件</router-link>
           </li>
           <li>
             <router-link to="/doc/dialog">Dialog 组件</router-link>
           </li>
           <li>
             <router-link to="/doc/tabs">Tabs 组件</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/input">Input 组件</router-link>
           </li>
           <li>
             <router-link to="/doc/unfinished">未完待续...</router-link>
@@ -110,6 +113,7 @@ export default {
       box-shadow: 5px 0 5px rgb(51 51 51 / 10%);
       //&::-webkit-scrollbar { width: 0 !important }
       padding-bottom: 32px;
+
       > h2 {
         margin-bottom: 4px;
         line-height: 22px;

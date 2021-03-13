@@ -7,6 +7,7 @@ import ButtonDoc from '../components/DocUi/ButtonDoc.vue';
 import DialogDoc from '../components/DocUi/DialogDoc.vue';
 import TabsDoc from '../components/DocUi/TabsDoc.vue';
 import InputDoc from '../components/DocUi/InputDoc.vue';
+import RadioDoc from '../components/DocUi/RadioDoc.vue';
 
 import Markdown from '../components/Markdown.vue';
 import intro from '../markdown/intro.md'
@@ -54,6 +55,7 @@ const router = createRouter({
         {path: 'dialog', component: DialogDoc},
         {path: 'tabs', component: TabsDoc},
         {path: 'input', component: InputDoc},
+        {path: 'radio', component: RadioDoc},
 
       ]
     },

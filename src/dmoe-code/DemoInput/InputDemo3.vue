@@ -1,5 +1,5 @@
 <demo>
-支持类型
+支持禁用
 </demo>
 
 <template>
@@ -7,7 +7,6 @@
   <span class="text">
     {{text}}
   </span>
-
 </template>
 
 <script lang="ts">

@@ -10,13 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="处理 yarn dev 页面不显示 路径错误的问题 （折腾半天，发现是vite的毛病...）">
-      <change afterPath="$PROJECT_DIR$/src/components/DocUi/InputDoc.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dmoe-code/InputDemo1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dmoe-code/InputDemo2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dmoe-code/InputDemo3.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Input.vue" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="完成 Input 组件， 以及移动一下文件位置">
+      <change afterPath="$PROJECT_DIR$/src/components/DocUi/RadioDoc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dmoe-code/DemoRadio/RadioDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Radio.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo3.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
@@ -70,9 +70,11 @@
       <recent name="G:\我的项目\zhizz-ui\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\我的项目\zhizz-ui\src\components\DocUi" />
-      <recent name="G:\我的项目\zhizz-ui\src\components" />
-      <recent name="G:\我的项目\zhizz-ui\src\components\Tab" />
+      <recent name="G:\我的项目\zhizz-ui\src\dmoe-code\DemoTabs" />
+      <recent name="G:\我的项目\zhizz-ui\src\dmoe-code\DemoSwitch" />
+      <recent name="G:\我的项目\zhizz-ui\src\dmoe-code\DemoInput" />
+      <recent name="G:\我的项目\zhizz-ui\src\dmoe-code\DemoDialog" />
+      <recent name="G:\我的项目\zhizz-ui\src\dmoe-code\DomeButton" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
@@ -105,14 +107,7 @@
       <workItem from="1614751530322" duration="5786000" />
       <workItem from="1615195471905" duration="791000" />
       <workItem from="1615196322936" duration="8169000" />
-      <workItem from="1615616834771" duration="5243000" />
-    </task>
-    <task id="LOCAL-00030" summary="button 加载功能">
-      <created>1614331447324</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1614331447324</updated>
+      <workItem from="1615616834771" duration="6704000" />
     </task>
     <task id="LOCAL-00031" summary="button 加载功能">
       <created>1614333750278</created>
@@ -450,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615208684658</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="完成 Input 组件， 以及移动一下文件位置">
+      <created>1615622921583</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1615622921584</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aside 样式" />
     <MESSAGE value="markdown css" />
     <MESSAGE value="支持markdown，以及写markdown，优化markdown" />
     <MESSAGE value="更新 SwitchDemo组件样式" />
@@ -494,6 +495,7 @@
     <MESSAGE value="添加一个项目介绍" />
     <MESSAGE value="modify name" />
     <MESSAGE value="处理 yarn dev 页面不显示 路径错误的问题 （折腾半天，发现是vite的毛病...）" />
-    <option name="LAST_COMMIT_MESSAGE" value="处理 yarn dev 页面不显示 路径错误的问题 （折腾半天，发现是vite的毛病...）" />
+    <MESSAGE value="完成 Input 组件， 以及移动一下文件位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 Input 组件， 以及移动一下文件位置" />
   </component>
 </project>
