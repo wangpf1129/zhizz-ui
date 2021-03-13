@@ -4,9 +4,6 @@
 
 <template>
   <Input placeholder="禁用"  v-model:value="text" disabled/>
-  <span class="text">
-    {{text}}
-  </span>
 </template>
 
 <script lang="ts">
@@ -25,7 +22,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.text{
-  padding: 10px 15px;
-}
+
 </style>

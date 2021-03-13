@@ -5,7 +5,7 @@
 <template>
   <Radio label="1" v-model:value="labelVal">学习</Radio>
   <Radio label="0" v-model:value="labelVal">娱乐</Radio>
-
+  <div class="picked">Picked:{{labelVal}}</div>
 </template>
 
 <script lang="ts">
@@ -24,5 +24,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.picked{
+  padding: 10px 0;
+}
 </style>

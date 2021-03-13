@@ -4,7 +4,7 @@
 
 <template>
   <Input placeholder="请输入内容" v-model:value="text"/>
-  <span class="text">{{text}}</span>
+  <span class="picked">{{text}}</span>
 </template>
 
 <script lang="ts">
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.text{
+.picked{
   padding: 10px 15px;
 }
 </style>

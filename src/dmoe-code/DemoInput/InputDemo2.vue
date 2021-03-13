@@ -4,11 +4,11 @@
 
 <template>
   <Input placeholder="文本类型"  v-model:value="text"/>
-  <span class="text">
+  <span class="picked">
     {{text}}
   </span>
   <Input placeholder="密码类型" type="password" v-model:value="password"/>
-  <span class="text">
+  <span class="picked">
     {{password}}
   </span>
 </template>
@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.text{
+.picked{
   padding: 10px 15px;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <doc-title>Input 输入框示例</doc-title>
+  <doc-title>Radio 单选框示例</doc-title>
   <CodePer :component="RadioDemo"/>
   <CodePer :component="RadioDemo2"/>
 
