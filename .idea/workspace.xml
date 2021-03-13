@@ -10,15 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="完成 Input 组件， 以及移动一下文件位置">
-      <change afterPath="$PROJECT_DIR$/src/components/DocUi/RadioDoc.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dmoe-code/DemoRadio/RadioDemo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Radio.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="制作Radio组件样式，并添加到文档里">
+      <change afterPath="$PROJECT_DIR$/src/dmoe-code/DemoRadio/RadioDemo2.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DocUi/RadioDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocUi/RadioDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dmoe-code/DemoRadio/RadioDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/DemoRadio/RadioDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Radio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Radio.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,14 +105,7 @@
       <workItem from="1614751530322" duration="5786000" />
       <workItem from="1615195471905" duration="791000" />
       <workItem from="1615196322936" duration="8169000" />
-      <workItem from="1615616834771" duration="6704000" />
-    </task>
-    <task id="LOCAL-00031" summary="button 加载功能">
-      <created>1614333750278</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1614333750278</updated>
+      <workItem from="1615616834771" duration="9013000" />
     </task>
     <task id="LOCAL-00032" summary="创建 Dialog组件">
       <created>1614334511304</created>
@@ -452,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615622921584</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="制作Radio组件样式，并添加到文档里">
+      <created>1615624207141</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1615624207141</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +469,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="markdown css" />
     <MESSAGE value="支持markdown，以及写markdown，优化markdown" />
     <MESSAGE value="更新 SwitchDemo组件样式" />
     <MESSAGE value="展示源代码" />
@@ -496,6 +493,7 @@
     <MESSAGE value="modify name" />
     <MESSAGE value="处理 yarn dev 页面不显示 路径错误的问题 （折腾半天，发现是vite的毛病...）" />
     <MESSAGE value="完成 Input 组件， 以及移动一下文件位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 Input 组件， 以及移动一下文件位置" />
+    <MESSAGE value="制作Radio组件样式，并添加到文档里" />
+    <option name="LAST_COMMIT_MESSAGE" value="制作Radio组件样式，并添加到文档里" />
   </component>
 </project>

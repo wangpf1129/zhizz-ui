@@ -1,12 +1,14 @@
 <template>
   <doc-title>Input 输入框示例</doc-title>
   <CodePer :component="RadioDemo"/>
+  <CodePer :component="RadioDemo2"/>
 
   <Attr :columns="columns" :data="data"></Attr>
 </template>
 
 <script lang="ts">
 import RadioDemo from '../../dmoe-code/DemoRadio/RadioDemo.vue';
+import RadioDemo2 from '../../dmoe-code/DemoRadio/RadioDemo2.vue';
 
 
 import CodePer from '../CodePer.vue';
@@ -22,35 +24,21 @@ export default {
   setup() {
     const data = ref([
       {
-        params: 'placeholder',
-        desc: '占位符',
-        type: 'string',
-        select: '任意字符串',
-        default: '空',
+        params: 'label',
+        desc: '相当于原生radio标签的value',
+        type: 'string / number / boolean',
+        select: '自定义',
+        default: '自定义',
       },
       {
-        params: 'name',
-        desc: 'name属性',
-        type: 'string',
-        select: '任意字符串',
-        default: '空',
-      },
-      {
-        params: 'type',
-        desc: '文本框类型',
-        type: 'string',
-        select: '支持所有原生input的类型',
-        default: 'text',
-      },
-      {
-        params: 'disabled',
-        desc: '禁用',
-        type: 'boolean',
-        select: 'false/true',
-        default: 'false',
+        params: 'v-model:value',
+        desc: '双向绑定',
+        type: '随着label属性类型改变',
+        select: '自定义',
+        default: 'label属性中的任意一个值',
       },
     ]);
-    return {RadioDemo, data, columns};
+    return {RadioDemo,RadioDemo2, data, columns};
   }
 };
 </script>
