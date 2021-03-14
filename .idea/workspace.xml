@@ -10,14 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="完成 Radio 单选框组件">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="添加 标注">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DocUi/RadioDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocUi/RadioDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/DemoInput/InputDemo3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dmoe-code/DemoRadio/RadioDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/DemoRadio/RadioDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dmoe-code/DemoRadio/RadioDemo2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/dmoe-code/DemoRadio/RadioDemo2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +101,7 @@
       <workItem from="1614751530322" duration="5786000" />
       <workItem from="1615195471905" duration="791000" />
       <workItem from="1615196322936" duration="8169000" />
-      <workItem from="1615616834771" duration="9547000" />
-    </task>
-    <task id="LOCAL-00033" summary="Dialog组件样式">
-      <created>1614335767948</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1614335767948</updated>
+      <workItem from="1615616834771" duration="11294000" />
     </task>
     <task id="LOCAL-00034" summary="让 Dialog组件支持 visible 属性">
       <created>1614336177604</created>
@@ -451,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615626465743</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="添加 标注">
+      <created>1615627018243</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1615627018243</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +465,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新 SwitchDemo组件样式" />
     <MESSAGE value="展示源代码" />
     <MESSAGE value="在template中使用 component 标签来代替 script中的" />
     <MESSAGE value="Doc 页面样式优化" />
@@ -495,6 +489,7 @@
     <MESSAGE value="完成 Input 组件， 以及移动一下文件位置" />
     <MESSAGE value="制作Radio组件样式，并添加到文档里" />
     <MESSAGE value="完成 Radio 单选框组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 Radio 单选框组件" />
+    <MESSAGE value="添加 标注" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 标注" />
   </component>
 </project>
