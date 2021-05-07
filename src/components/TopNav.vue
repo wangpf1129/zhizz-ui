@@ -6,7 +6,6 @@
       </svg>
     </router-link>
     <ul class="menu">
-      <li><router-link to="/doc">文档</router-link></li>
       <li><a href="https://wwwpppfffzzz.github.io/" target="_blank" >博客</a></li>
       <li><a href="https://github.com/wwwpppfffzzz" target="_blank" >GitHub</a></li>
     </ul>

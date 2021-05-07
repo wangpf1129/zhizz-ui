@@ -1,39 +1,47 @@
 <template>
   <div class="home">
     <TopNav/>
-    <div>
-      <section class="banner">
-        <h1>清栀UI 官网</h1>
-        <h2>简约而又不失创造力</h2>
-        <div class="actions">
-          <a target="_blank" href="https://github.com/wwwpppfffzzz">GitHub</a>
-          <router-link to="/doc">开始</router-link>
+    <div class="login-wrapper">
+      <div class="login-box">
+        <img src="../assets/images/img.png" class="nice-logo" alt=""/>
+        <p>清栀UI 官网</p>
+        <div class="login-form">
+          <div class="login-input">
+            <label class="login-label">
+              <Input
+                class="login-text"
+                placeholder="请输入用户名"
+                v-model:value="username"
+              />
+            </label>
+            <span class="login-symbol">
+                <svg class="icon" aria-hidden="true">
+                   <use xlink:href="#icon-user"></use>
+                </svg>
+              </span>
+          </div>
+          <div class="login-input">
+            <label class="login-label">
+              <Input class="login-text"
+                     type="password"
+                     placeholder="请输入密码"
+                     v-model:value="password"
+              />
+            </label>
+            <span class="login-symbol">
+                <svg class="icon" aria-hidden="true">
+                   <use xlink:href="#icon-mima"></use>
+                </svg>
+              </span>
+          </div>
+          <div class="login-footer">
+            <div class="login-btn-wrap">
+              <Button theme="primary" size="normal" class="login-btn"
+                      @click="login">登录
+              </Button>
+            </div>
+          </div>
         </div>
-      </section>
-      <div class="features">
-        <ul>
-          <li>
-            <svg class="icon">
-              <use xlink:href="#icon-vue"></use>
-            </svg>
-            <h3>基于 Vue 3</h3>
-            <p>使用了 Vue 3 Composition API</p>
-          </li>
-          <li>
-            <svg class="icon">
-              <use xlink:href="#icon-ts"></use>
-            </svg>
-            <h3>基于 TypeScript </h3>
-            <p>源代码采用 TypeScript 书写（非严格检查）</p>
-          </li>
-          <li>
-            <svg class="icon">
-              <use xlink:href="#icon-led"></use>
-            </svg>
-            <h3>代码易读</h3>
-            <p>每个组件的源代码都极其简洁</p>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
@@ -42,10 +50,28 @@
 
 <script lang="ts">
 import TopNav from '../components/TopNav.vue';
+import Input from '../lib/Input.vue';
+import Button from '../lib/Button.vue';
+import {ref} from 'vue';
+import {router} from '../router';
 
 export default {
   name: 'Home',
-  components: {TopNav},
+  components: {Button, Input, TopNav},
+  setup() {
+    const username = ref('Wangpf');
+    const password = ref('123456');
+    const loading = ref(false);
+    const login = () => {
+      if (username && password) {
+        setTimeout(() => {
+          router.push({path: '/doc'});
+        }, 500);
+      }
+    };
+    return {username, password, loading, login};
+  }
+  
 };
 </script>
 
@@ -57,108 +83,108 @@ $textColor: #05538c;
   ::v-deep(.top_nav) {
     background: transparent;
   }
-
+  
   @media (max-width: 500px) {
     ::v-deep(.top_nav) {
       background: #fff;
     }
   }
-
-  .banner {
-    padding: 180px 0 150px;
-    color: $textColor;
-    background: rgb(174, 209, 228);
-    background: linear-gradient(145deg, rgba(174, 209, 228, 1) 0%, rgba(66, 125, 169, 1) 100%);
-    clip-path: ellipse(80% 60% at 50% 40%);
-    margin: 0 auto;
-
-    h1 {
-      text-align: center;
-      font-size: 34px;
-      line-height: 52px;
-    }
-
-    h2 {
-      text-align: right;
-      padding-right: 100px;
-      margin-top: 12px;
-      font-size: 20px;
-      line-height: 26px;
-    }
-
-    > .actions {
-      padding: 8px 0;
-      font-size: 18px;
-      margin-top: 16px;
-      text-align: center;
-
-      a {
-        margin: 0 8px;
-        background: $buttonColor;
-        padding: 8px 26px;
-        color: #fff;
-        border-radius: 6px;
-        border: none;
-      }
-
-    }
-  }
-
-  .features {
-
-    margin: 64px auto;
-    width: 300px;
-    @media (min-width: 800px) {
-      width: 800px;
-      h3 {
-        font-size: 20px;
-      }
-
-      p {
-        font-size: 14px;
-      }
-    }
-    @media (min-width: 1200px) {
-      width: 1200px;
-    }
-
-    > ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-
-      > li {
-
-        width: 300px;
-        margin: 16px 0;
-        display: grid;
-        justify-content: start;
-        align-content: space-between;
-        grid-template-areas:
-        "icon title"
-        "icon text";
-        grid-template-columns: 80px auto;
-        grid-template-rows: 1fr auto;
-
-        > svg {
-          grid-area: icon;
-          width: 64px;
-          height: 64px;
-        }
-
-        > h3 {
-          grid-area: title;
-          font-size: 28px;
-        }
-
-        > p {
-          grid-area: text;
-          font-size: 18px;
-        }
-      }
-    }
-  }
 }
 
+
+.login-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #5dd5c8 url(../assets/images/newbg1.png) center bottom no-repeat;
+  
+  .login-box {
+    overflow: hidden;
+    height: 486px;
+    position: relative;
+    width: 350px;
+    max-width: 350px;
+    margin: 4em auto;
+    border-radius: 8px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, .3);
+    background: #fff url(../assets/images/logbg.jpg) no-repeat bottom;
+    text-align: center;
+    z-index: 80;
+    
+    .nice-logo {
+      width: 55px;
+      margin: 40px 0 0;
+    }
+    
+    p {
+      font-size: 26px;
+      color: #8742d1;
+      margin-bottom: 35px;
+    }
+    
+    .login-form {
+      width: 296px;
+      margin: 0 auto;
+      
+      .login-input {
+        position: relative;
+        width: 100%;
+        z-index: 1;
+        margin-bottom: 20px;
+        
+        .login-label {
+          .login-text {
+            padding: 0 30px 0 45px;
+            outline: none;
+          }
+        }
+        
+        .login-symbol {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding-left: 15px;
+          pointer-events: none;
+          
+          svg {
+            width: 22px;
+            height: 22px;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+          }
+        }
+        
+        
+      }
+      
+      .login-footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        
+        .login-btn-wrap {
+          width: 100%;
+          
+          .login-btn {
+            width: 90%;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+  
+  
+}
 
 </style>

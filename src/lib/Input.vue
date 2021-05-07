@@ -68,7 +68,6 @@ export default {
     padding: 0 15px;
     transition: border-color .25s cubic-bezier(.645, .045, .355, 1);
     width: 100%;
-    margin: 10px;
 
     &:focus {
       outline: none;

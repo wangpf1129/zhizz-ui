@@ -68,7 +68,7 @@ import {inject, Ref} from 'vue';
 
 
 export default {
-  name: 'Dov',
+  name: 'Doc',
   components: {TopNav},
   setup() {
     const asideVisible = inject<Ref<boolean>>('asideVisible');
