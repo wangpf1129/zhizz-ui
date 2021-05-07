@@ -10,18 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="添加 标注">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/newbg1.png" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="重构首页">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Input.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logbg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/newbg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/newbg1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +69,11 @@
       <recent name="G:\我的项目\zhizz-ui\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\我的项目\zhizz-ui\dist\assets" />
+      <recent name="G:\我的项目\zhizz-ui\dist" />
+      <recent name="G:\我的项目\zhizz-ui\src\assets" />
       <recent name="G:\我的项目\zhizz-ui\src\dmoe-code\DemoTabs" />
       <recent name="G:\我的项目\zhizz-ui\src\dmoe-code\DemoSwitch" />
-      <recent name="G:\我的项目\zhizz-ui\src\dmoe-code\DemoInput" />
-      <recent name="G:\我的项目\zhizz-ui\src\dmoe-code\DemoDialog" />
-      <recent name="G:\我的项目\zhizz-ui\src\dmoe-code\DomeButton" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
@@ -121,21 +116,7 @@
       <workItem from="1616484484669" duration="2893000" />
       <workItem from="1616490633337" duration="1317000" />
       <workItem from="1620354034558" duration="3745000" />
-      <workItem from="1620371671949" duration="6539000" />
-    </task>
-    <task id="LOCAL-00035" summary="让 Dialog组件支持 点击事件">
-      <created>1614344443948</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1614344443948</updated>
-    </task>
-    <task id="LOCAL-00036" summary="让 Dialog组件支持 title 和 content">
-      <created>1614344777863</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1614344777863</updated>
+      <workItem from="1620371671949" duration="7514000" />
     </task>
     <task id="LOCAL-00037" summary="使用具名插槽， 以及 添加 width 和 top 属性">
       <created>1614345500332</created>
@@ -466,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615705615889</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="重构首页">
+      <created>1620400134759</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1620400134759</updated>
+    </task>
+    <task id="LOCAL-00085" summary="重构首页">
+      <created>1620400158974</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1620400158974</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +480,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="展示源代码" />
     <MESSAGE value="在template中使用 component 标签来代替 script中的" />
     <MESSAGE value="Doc 页面样式优化" />
     <MESSAGE value="改造 组件 Demo" />
@@ -510,6 +504,7 @@
     <MESSAGE value="制作Radio组件样式，并添加到文档里" />
     <MESSAGE value="完成 Radio 单选框组件" />
     <MESSAGE value="添加 标注" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 标注" />
+    <MESSAGE value="重构首页" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构首页" />
   </component>
 </project>

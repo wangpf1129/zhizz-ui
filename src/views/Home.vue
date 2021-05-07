@@ -3,7 +3,7 @@
     <TopNav/>
     <div class="login-wrapper">
       <div class="login-box">
-        <img src="../assets/images/img.png" class="nice-logo" alt=""/>
+        <img src="../assets/img.png" class="nice-logo" alt=""/>
         <p>清栀UI 官网</p>
         <div class="login-form">
           <div class="login-input">
@@ -100,7 +100,7 @@ $textColor: #05538c;
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #5dd5c8 url(../assets/images/newbg1.png) center bottom no-repeat;
+  background: #5dd5c8 url(../assets/newbg1.png) center bottom no-repeat;
   
   .login-box {
     overflow: hidden;
@@ -111,7 +111,7 @@ $textColor: #05538c;
     margin: 4em auto;
     border-radius: 8px;
     box-shadow: 1px 2px 15px rgba(0, 0, 0, .3);
-    background: #fff url(../assets/images/logbg.jpg) no-repeat bottom;
+    background: #fff url(../assets/logbg.jpg) no-repeat bottom;
     text-align: center;
     z-index: 80;
     
