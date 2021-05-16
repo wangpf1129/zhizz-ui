@@ -18,7 +18,7 @@ import blog from '../markdown/blog.md'
 import more_project from '../markdown/more-project.md'
 import unfinished from '../markdown/unfinished.md'
 import virus_map from '../markdown/virusmap.md'
-
+import backstage_management from '../markdown/backstage-management.md'
 
 import {h} from 'vue';
 
@@ -51,6 +51,7 @@ const router = createRouter({
         {path: 'virus-map', component: md(virus_map)},
         {path: 'more-project', component: md(more_project)},
         {path: 'unfinished', component: md(unfinished)},
+        {path: 'backstage-management', component: md(backstage_management)},
         {path: 'switch', component: SwitchDoc},
         {path: 'button', component: ButtonDoc},
         {path: 'dialog', component: DialogDoc},

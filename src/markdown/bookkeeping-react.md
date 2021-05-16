@@ -1,4 +1,4 @@
-## 清栀记账-React版
+## 清栀记账-React版 👇
 
 > 本项目基于 React / React Router / 自定义 Hooks /  webpack 来实现的 及其简洁的记账App应用。由本人独立设计及实现，且源代码几乎完全用 TypeScript 实现
 

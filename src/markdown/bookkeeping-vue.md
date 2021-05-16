@@ -1,4 +1,4 @@
-## 清栀记账-Vue版
+## 清栀记账-Vue版 👇
 > **本项目是一款及其简洁的记账App，也是一款基于Vue、VueRouter、Vuex来实现的单页面应用，由本人独立设计及实现，且源代码几乎完全用 TypeScript  和 装饰器 语法 来实现**
 
 - 如果想看源码，请点击 [清栀记账-Vue版源码](https://github.com/wwwpppfffzzz/bookkeeping-vue) 可查看。

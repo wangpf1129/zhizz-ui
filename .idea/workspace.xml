@@ -10,13 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="重构首页">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="解决 部署后 背景图片的路径错误导致不显示的问题">
+      <change afterPath="$PROJECT_DIR$/src/markdown/backstage-management.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logbg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/newbg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/newbg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/blog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/bookkeeping-react.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/bookkeeping-react.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/bookkeeping-vue.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/bookkeeping-vue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/naruto.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/naruto.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/virusmap.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/virusmap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="F:\webstorm\WebStorm 2020.3\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -116,14 +119,10 @@
       <workItem from="1616484484669" duration="2893000" />
       <workItem from="1616490633337" duration="1317000" />
       <workItem from="1620354034558" duration="3745000" />
-      <workItem from="1620371671949" duration="7514000" />
-    </task>
-    <task id="LOCAL-00037" summary="使用具名插槽， 以及 添加 width 和 top 属性">
-      <created>1614345500332</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1614345500332</updated>
+      <workItem from="1620371671949" duration="8319000" />
+      <workItem from="1621158531842" duration="216000" />
+      <workItem from="1621168252011" duration="26000" />
+      <workItem from="1621172210373" duration="1252000" />
     </task>
     <task id="LOCAL-00038" summary="使用 Teleport 标签来 避免Dialog被遮挡">
       <created>1614346065998</created>
@@ -461,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620400158974</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="解决 部署后 背景图片的路径错误导致不显示的问题">
+      <created>1620401062994</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1620401062994</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +486,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="在template中使用 component 标签来代替 script中的" />
     <MESSAGE value="Doc 页面样式优化" />
     <MESSAGE value="改造 组件 Demo" />
     <MESSAGE value="更好 展示源代码的样式" />
@@ -505,6 +510,7 @@
     <MESSAGE value="完成 Radio 单选框组件" />
     <MESSAGE value="添加 标注" />
     <MESSAGE value="重构首页" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构首页" />
+    <MESSAGE value="解决 部署后 背景图片的路径错误导致不显示的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决 部署后 背景图片的路径错误导致不显示的问题" />
   </component>
 </project>

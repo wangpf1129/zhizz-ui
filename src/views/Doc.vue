@@ -45,6 +45,9 @@
             <router-link to="/doc/bookkeeping-react">清栀记账-React版</router-link>
           </li>
           <li>
+            <router-link to="/doc/backstage-management">后台管理系统</router-link>
+          </li>
+          <li>
             <router-link to="/doc/naruto">手绘漩涡鸣人</router-link>
           </li>
           <li>
