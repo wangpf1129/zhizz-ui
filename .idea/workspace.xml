@@ -10,14 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="解决 部署后 背景图片的路径错误导致不显示的问题">
-      <change afterPath="$PROJECT_DIR$/src/markdown/backstage-management.md" afterDir="false" />
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="添加新的项目介绍">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/blog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/bookkeeping-react.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/bookkeeping-react.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/bookkeeping-vue.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/bookkeeping-vue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/naruto.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/naruto.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/virusmap.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/virusmap.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
@@ -59,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vue3项目/backstage-management-vue2" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="F:\webstorm\WebStorm 2020.3\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -122,14 +116,9 @@
       <workItem from="1620371671949" duration="8319000" />
       <workItem from="1621158531842" duration="216000" />
       <workItem from="1621168252011" duration="26000" />
-      <workItem from="1621172210373" duration="1252000" />
-    </task>
-    <task id="LOCAL-00038" summary="使用 Teleport 标签来 避免Dialog被遮挡">
-      <created>1614346065998</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1614346065998</updated>
+      <workItem from="1621172210373" duration="1608000" />
+      <workItem from="1621175922576" duration="1111000" />
+      <workItem from="1621225034771" duration="1549000" />
     </task>
     <task id="LOCAL-00039" summary="利用 动态挂载组件  函数式调用 Dialog组件">
       <created>1614352597794</created>
@@ -467,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620401062994</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="添加新的项目介绍">
+      <created>1621173656034</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1621173656034</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +482,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Doc 页面样式优化" />
     <MESSAGE value="改造 组件 Demo" />
     <MESSAGE value="更好 展示源代码的样式" />
     <MESSAGE value="添加 Attr 组件 用来写属性" />
@@ -511,6 +506,7 @@
     <MESSAGE value="添加 标注" />
     <MESSAGE value="重构首页" />
     <MESSAGE value="解决 部署后 背景图片的路径错误导致不显示的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决 部署后 背景图片的路径错误导致不显示的问题" />
+    <MESSAGE value="添加新的项目介绍" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加新的项目介绍" />
   </component>
 </project>
