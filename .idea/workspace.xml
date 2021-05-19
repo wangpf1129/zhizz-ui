@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="删除疑似 引起 git pages 404 路径问题">
+    <list default="true" id="1739b50b-5ffa-46e9-88b1-67e03849b11b" name="Default Changelist" comment="更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/markdown/backstage-management.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/backstage-management.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,14 +119,9 @@
       <workItem from="1621172210373" duration="1608000" />
       <workItem from="1621175922576" duration="1111000" />
       <workItem from="1621225034771" duration="2335000" />
-      <workItem from="1621238411169" duration="303000" />
-    </task>
-    <task id="LOCAL-00040" summary="调整html">
-      <created>1614352754455</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1614352754455</updated>
+      <workItem from="1621238411169" duration="669000" />
+      <workItem from="1621316326609" duration="36000" />
+      <workItem from="1621405363269" duration="432000" />
     </task>
     <task id="LOCAL-00041" summary="调整html">
       <created>1614405501853</created>
@@ -463,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621228609774</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="更新">
+      <created>1621238838493</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1621238838493</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更好 展示源代码的样式" />
     <MESSAGE value="添加 Attr 组件 用来写属性" />
     <MESSAGE value="编写 属性参数" />
     <MESSAGE value="抽离 DocTitle" />
@@ -507,6 +509,7 @@
     <MESSAGE value="解决 部署后 背景图片的路径错误导致不显示的问题" />
     <MESSAGE value="添加新的项目介绍" />
     <MESSAGE value="删除疑似 引起 git pages 404 路径问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除疑似 引起 git pages 404 路径问题" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
 </project>

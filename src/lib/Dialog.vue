@@ -5,11 +5,11 @@
       <div class="z-dialog-wrapper" :style="styles">
         <div class="z-dialog">
           <header>
-            <slot name="title"/>
+            <slot name="title" />
             <span class="z-dialog-close" @click="close"></span>
           </header>
           <main>
-            <slot name="content"/>
+            <slot name="content" />
           </main>
           <footer>
             <Button @click="cancel" size="small">取消</Button>
@@ -22,19 +22,19 @@
 </template>
 
 <script lang="ts">
-import Button from './Button.vue';
+import Button from "./Button.vue";
 
 export default {
-  name: 'Dialog',
-  components: {Button},
+  name: "Dialog",
+  components: { Button },
   props: {
     width: {
       type: String,
-      default: '60%'
+      default: "60%",
     },
     top: {
       type: String,
-      default: '130px'
+      default: "130px",
     },
     visible: {
       type: Boolean,
@@ -54,10 +54,10 @@ export default {
   setup(props, context) {
     const styles = {
       minWidth: props.width,
-      top: props.top
+      top: props.top,
     };
     const close = () => {
-      context.emit('update:visible', !props.visible);
+      context.emit("update:visible", !props.visible);
     };
     const onClickOverlay = () => {
       if (props.closeOnClickOverlay) {
@@ -79,7 +79,7 @@ export default {
       close,
       onClickOverlay,
       ok,
-      cancel
+      cancel,
     };
   },
 };
@@ -88,7 +88,6 @@ export default {
 <style lang="scss">
 $radius: 4px;
 $border-color: #d9d9d9;
-
 
 .z-dialog {
   background: white;
@@ -128,7 +127,6 @@ $border-color: #d9d9d9;
   }
 
   > footer {
-
     border-top: 1px solid $border-color;
     padding: 12px 2px;
     text-align: right;
@@ -161,5 +159,4 @@ $border-color: #d9d9d9;
     }
   }
 }
-
 </style>
